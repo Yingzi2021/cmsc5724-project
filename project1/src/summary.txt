@@ -1,0 +1,5 @@
+Number of training records loaded: 30162
+Decision tree saved to 'decision_tree.txt'
+Number of test records loaded: 15060
+Accuracy on test data: 85.3652%
+Classification report saved to 'classification_report.txt'
