@@ -48,7 +48,7 @@ def parse_tree_to_graph(tree_text, output_filename='decision_tree'):
     graph.render(output_filename, view=True)
 
 # Read the decision tree from file
-with open('tree.txt', 'r') as file:
+with open('decision_tree.txt', 'r') as file:
     tree_text = file.read()
 
 # Generate the decision tree graph
