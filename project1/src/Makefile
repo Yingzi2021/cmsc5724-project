@@ -14,13 +14,13 @@ PROCESSED_TEST_DATA = ../adult/adult_processed.test
 
 # Build the target executable
 $(TARGET): $(SRC)
-	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
+	@$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
 
 # Run the program
 run: $(TARGET)
-	./$(TARGET)
-	rm -f $(PROCESSED_TRAIN_DATA) $(PROCESSED_TEST_DATA)
+	@./$(TARGET)
+	@rm -f $(PROCESSED_TRAIN_DATA) $(PROCESSED_TEST_DATA)
 
 # Clean up compiled files
 clean:
-	rm -f $(TARGET)
+	@rm -f $(TARGET)
