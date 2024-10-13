@@ -1,0 +1,17 @@
+Dataset loaded: 10000 samples, dimension: 2, R: 16
+Margin Perceptron converged after 4 iterations.
+Final margin after convergence: 2.07002
+Final weight vector: 3.76546 -23.4788 
+Test accuracy: 100%
+
+Dataset loaded: 10000 samples, dimension: 4, R: 24
+Margin Perceptron converged after 4 iterations.
+Final margin after convergence: 0.935398
+Final weight vector: 4.8943 -4.41313 -25.706 18.7774 
+Test accuracy: 100%
+
+Dataset loaded: 10000 samples, dimension: 8, R: 12
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 1.34266
+Final weight vector: -1.05972 -6.0091 -7.50346 -2.24847 12.9023 6.93707 13.2819 -6.21717 
+Test accuracy: 100%
