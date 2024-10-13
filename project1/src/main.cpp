@@ -47,8 +47,10 @@ double find_best_split(const vector<DataRecord>& dataSet, int attribute_index, d
 TreeNode* buildDecisionTree(const vector<DataRecord>& dataSet, int max_depth, int min_size, int depth);
 string predict(TreeNode* node, const DataRecord& record);
 void printTree(TreeNode* node, string indent = "");
+void saveTreeToFile(TreeNode* node, ofstream& outFile, string indent = "");
+void generateClassificationReport(const vector<DataRecord>& testData, TreeNode* root, const string& reportFilePath);
 
-// Additional parameters for stopping criteria
+// parameters for stopping criteria
 const int MAX_DEPTH = 10;      // Maximum depth of the tree
 const int MIN_SIZE = 10;       // Minimum number of samples required to split
 
@@ -66,6 +68,16 @@ int main() {
 
     // Build decision tree using the Hunt algorithm with stopping criteria
     TreeNode* root = buildDecisionTree(trainingData, MAX_DEPTH, MIN_SIZE, 1);
+
+    // Save the decision tree to a file
+    ofstream treeFile("decision_tree.txt");
+    if (treeFile.is_open()) {
+        saveTreeToFile(root, treeFile);
+        treeFile.close();
+        cout << "Decision tree saved to 'decision_tree.txt'" << endl;
+    } else {
+        cerr << "Error: Could not open 'decision_tree.txt' for writing." << endl;
+    }
 
     // Preprocess and load test data
     string processedTestDataPath = getProcessedFilename(testDataPath);
@@ -87,7 +99,9 @@ int main() {
     double accuracy = (double)correctPredictions / testData.size();
     cout << "Accuracy on test data: " << accuracy * 100 << "%" << endl;
 
-    printTree(root);
+    // Generate classification report
+    generateClassificationReport(testData, root, "classification_report.txt");
+    cout << "Classification report saved to 'classification_report.txt'" << endl;
 
     return 0;
 }
@@ -466,4 +480,94 @@ void printTree(TreeNode* node, string indent) {
             printTree(node->right, indent + "  ");
         }
     }
+}
+
+// Function to save the decision tree to a file
+void saveTreeToFile(TreeNode* node, ofstream& outFile, string indent) {
+    if (node->isLeaf) {
+        outFile << indent << "Leaf: " << node->label << "\n";
+    } else {
+        outFile << indent << "Node: " << features[node->splitAttribute] << " ";
+        if (isCategorical[node->splitAttribute]) {
+            // Find the categorical value corresponding to the split value
+            string categoryName;
+            for (const auto& pair : categoryHash[features[node->splitAttribute]]) {
+                if (pair.second == static_cast<int>(node->splitValue)) {
+                    categoryName = pair.first;
+                    break;
+                }
+            }
+            outFile << "== " << categoryName << "\n";
+            outFile << indent << "--> Left:\n";
+            saveTreeToFile(node->left, outFile, indent + "  ");
+            outFile << indent << "--> Right:\n";
+            saveTreeToFile(node->right, outFile, indent + "  ");
+        } else {
+            outFile << "<= " << node->splitValue << "\n";
+            outFile << indent << "--> Left:\n";
+            saveTreeToFile(node->left, outFile, indent + "  ");
+            outFile << indent << "--> Right:\n";
+            saveTreeToFile(node->right, outFile, indent + "  ");
+        }
+    }
+}
+
+// Function to generate the classification report
+void generateClassificationReport(const vector<DataRecord>& testData, TreeNode* root, const string& reportFilePath) {
+    ofstream reportFile(reportFilePath);
+    if (!reportFile.is_open()) {
+        cerr << "Error: Could not open '" << reportFilePath << "' for writing." << endl;
+        return;
+    }
+
+    reportFile << "Classification Report\n";
+    reportFile << "---------------------\n";
+
+    int correctPredictions = 0;
+    int recordNumber = 1;
+    for (const DataRecord& record : testData) {
+        string predictedLabel = predict(root, record);
+        bool correct = (predictedLabel == record.label);
+
+        // Write record number
+        reportFile << "Record " << recordNumber << ":\n";
+
+        // Write attributes
+        reportFile << "Attributes:\n";
+        for (size_t i = 0; i < record.attributes.size(); ++i) {
+            reportFile << "  " << features[i] << ": ";
+            if (isCategorical[i]) {
+                // Convert categorical value back to original category name
+                string categoryName;
+                for (const auto& pair : categoryHash[features[i]]) {
+                    if (pair.second == static_cast<int>(record.attributes[i])) {
+                        categoryName = pair.first;
+                        break;
+                    }
+                }
+                reportFile << categoryName;
+            } else {
+                reportFile << record.attributes[i];
+            }
+            reportFile << "\n";
+        }
+
+        // Write actual and predicted labels
+        reportFile << "Actual Label: " << record.label << "\n";
+        reportFile << "Predicted Label: " << predictedLabel << "\n";
+
+        // Indicate whether the prediction was correct
+        reportFile << "Classification: " << (correct ? "Correct" : "Incorrect") << "\n";
+        reportFile << "---------------------\n";
+
+        if (correct) {
+            correctPredictions++;
+        }
+        recordNumber++;
+    }
+
+    double accuracy = (double)correctPredictions / testData.size();
+    reportFile << "Overall Accuracy: " << accuracy * 100 << "%\n";
+
+    reportFile.close();
 }
