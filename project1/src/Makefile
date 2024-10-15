@@ -3,7 +3,7 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall
 
 # Target executable
-TARGET = main
+TARGET = tree
 
 # Source files
 SRC = main.cpp
