@@ -14,7 +14,55 @@ struct Point {
     int label;  // 1 or -1
 };
 
-// Function to load the dataset from a file
+void loadData(const string& filePath, vector<Point>& data, int& dimension, int& numSamples, double& R);//load the dataset from a file
+void splitData(const vector<Point>& data, vector<Point>& trainData, vector<Point>& testData, double trainRatio);//shuffle and split the dataset into training and test sets
+double dotProduct(const vector<double>& w, const vector<double>& x);
+double calculateNorm(const vector<double>& w); // margin = min (w * p)/|w|
+double calculateFinalMargin(const vector<Point>& data, const vector<double>& w);
+void marginPerceptron(vector<Point>& data, vector<double>& w, double gamma_guess, double Lambda, double R);//modify, add Lambda
+double test(const vector<Point>& testData, const vector<double>& w);
+double calculateRadius(const vector<Point>& data) {
+    double max_radius = 0.0;
+    
+    for (const auto& p : data) {
+        double norm = calculateNorm(p.features);
+        max_radius = max(max_radius, norm);
+    }
+
+    return max_radius;
+}
+
+int main() {
+    // Variables to store dataset information
+    int dimension = 0, numSamples = 0;
+    double R = 0.0, lambda = 2.0; //influence approximation precision(gamma_guess >= gamma_opt / lambda^2)
+
+    vector<string> filePaths = {"../dataset/2d-r16-n10000", "../dataset/4d-r24-n10000", "../dataset/8d-r12-n10000"};  
+    for(string filePath : filePaths){
+        // Load dataset from file
+        vector<Point> data, trainData, testData;
+        loadData(filePath, data, dimension, numSamples, R);
+        splitData(data, trainData, testData, 0.5);
+        vector<double> w(dimension, 0.0);
+        double gamma_guess = R;
+
+        // Run Margin Perceptron
+        marginPerceptron(trainData, w, gamma_guess, lambda, R);
+
+        // Output the final weight vector
+        cout << "Final weight vector: ";
+        for (double wi : w) {
+            cout << wi << " ";
+        }
+        cout << endl;
+        // Test the model on test data and output accuracy
+        double accuracy = test(testData, w);
+        cout << "Test accuracy: " << accuracy * 100 << "%" << endl << endl;
+    }
+
+    return 0;
+}
+
 void loadData(const string& filePath, vector<Point>& data, int& dimension, int& numSamples, double& R) {
     ifstream file(filePath);
     if (!file.is_open()) {
@@ -50,7 +98,6 @@ void loadData(const string& filePath, vector<Point>& data, int& dimension, int& 
     cout << "Dataset loaded: " << numSamples << " samples, dimension: " << dimension << ", R: " << R << endl;
 }
 
-// Function to shuffle and split the dataset into training and test sets
 void splitData(const vector<Point>& data, vector<Point>& trainData, vector<Point>& testData, double trainRatio) {
     // Create a copy of the data and shuffle it
     vector<Point> shuffledData = data;
@@ -64,7 +111,6 @@ void splitData(const vector<Point>& data, vector<Point>& trainData, vector<Point
     testData.assign(shuffledData.begin() + trainSize, shuffledData.end());
 }
 
-// Dot product w · x
 double dotProduct(const vector<double>& w, const vector<double>& x) {
     double result = 0.0;
     for (size_t i = 0; i < w.size(); ++i) {
@@ -82,7 +128,7 @@ double calculateNorm(const vector<double>& w) {
     return sqrt(sum);
 }
 
-// Function to calculate the margin for a set of points and a given weight vector w
+//calculate the margin for a set of points and the final weight vector w
 double calculateFinalMargin(const vector<Point>& data, const vector<double>& w) {
     double norm_w = calculateNorm(w);
     double margin = numeric_limits<double>::max();
@@ -98,17 +144,17 @@ double calculateFinalMargin(const vector<Point>& data, const vector<double>& w) 
 }
 
 // Margin Perceptron Algorithm
-void marginPerceptron(vector<Point>& data, vector<double>& w, double gamma_guess, double R, int max_iterations) {
-    int iteration = 0;
+void marginPerceptron(vector<Point>& data, vector<double>& w, double gamma_guess, double Lambda, double R) {
+    int iteration = 0, max_iterations = (12 * R * R)/ (gamma_guess*gamma_guess);
     bool violations_found;
 
     do {
         violations_found = false;
+        // run margin perceptron with parameter gamma_guess
         for (const auto& p : data) {
             double wx = dotProduct(w, p.features);
-
             // Check for violations based on distance to the plane and label
-            if (abs(wx) < gamma_guess / 2 || (p.label == 1 && wx < 0) || (p.label == -1 && wx > 0)) {
+            if (abs(wx) < gamma_guess / Lambda || (p.label == 1 && wx < 0) || (p.label == -1 && wx > 0)) {
                 // Update weight vector w based on the violation
                 if (p.label == 1) {
                     for (size_t i = 0; i < w.size(); ++i) {
@@ -128,8 +174,9 @@ void marginPerceptron(vector<Point>& data, vector<double>& w, double gamma_guess
         // Forced termination condition
         if (iteration >= max_iterations) {
             cout << "Forced termination after " << iteration << " iterations." << endl;
-            gamma_guess /= 2;  // Set new gamma_guess
+            gamma_guess /= Lambda;  // Set new gamma_guess
             iteration = 0;  // Restart
+            max_iterations = (12 * R * R)/ (gamma_guess*gamma_guess);
         }
 
     } while (violations_found);
@@ -140,7 +187,7 @@ void marginPerceptron(vector<Point>& data, vector<double>& w, double gamma_guess
     cout << "Final margin after convergence: " << final_margin << endl;
 }
 
-// Function to test the accuracy of the trained perceptron model
+//test the accuracy of the trained perceptron model
 double test(const vector<Point>& testData, const vector<double>& w) {
     int correctPredictions = 0;
 
@@ -160,40 +207,4 @@ double test(const vector<Point>& testData, const vector<double>& w) {
     }
 
     return static_cast<double>(correctPredictions) / testData.size();  // Return accuracy
-}
-
-int main() {
-    // Variables to store dataset information
-    int dimension = 0, numSamples = 0;
-    double R = 0.0;
-    // Load dataset from file
-    vector<string> filePaths = {"../dataset/2d-r16-n10000", "../dataset/4d-r24-n10000", "../dataset/8d-r12-n10000"};  
-    for(string filePath : filePaths){
-        vector<Point> data, trainData, testData;
-        loadData(filePath, data, dimension, numSamples, R);
-        // Shuffle and split data into 80% training and 20% testing
-        splitData(data, trainData, testData, 0.8);
-
-        // Initialize weight vector w with 0s (same dimension as the features)
-        vector<double> w(dimension, 0.0);
-
-        // Parameters for the algorithm
-        double gamma_guess = R;
-        int max_iterations = 100;  // Maximum number of iterations before forced termination
-
-        // Run Margin Perceptron
-        marginPerceptron(trainData, w, gamma_guess, R, max_iterations);
-
-        // Output the final weight vector
-        cout << "Final weight vector: ";
-        for (double wi : w) {
-            cout << wi << " ";
-        }
-        cout << endl;
-        // Test the model on test data and output accuracy
-        double accuracy = test(testData, w);
-        cout << "Test accuracy: " << accuracy * 100 << "%" << endl << endl;
-    }
-
-    return 0;
 }
