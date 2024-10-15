@@ -19,7 +19,7 @@ void splitData(const vector<Point>& data, vector<Point>& trainData, vector<Point
 double dotProduct(const vector<double>& w, const vector<double>& x);
 double calculateNorm(const vector<double>& w); // margin = min (w * p)/|w|
 double calculateFinalMargin(const vector<Point>& data, const vector<double>& w);
-void marginPerceptron(vector<Point>& data, vector<double>& w, double gamma_guess, double Lambda, double R);//modify, add Lambda
+bool marginPerceptron(vector<Point>& data, vector<double>& w, double gamma_guess, double Lambda, double R);//modify, add Lambda
 double test(const vector<Point>& testData, const vector<double>& w);
 double calculateRadius(const vector<Point>& data) {
     double max_radius = 0.0;
@@ -35,19 +35,40 @@ double calculateRadius(const vector<Point>& data) {
 int main() {
     // Variables to store dataset information
     int dimension = 0, numSamples = 0;
-    double R = 0.0, lambda = 2.0; //influence approximation precision(gamma_guess >= gamma_opt / lambda^2)
+    double R = 0.0, lambda = 2; //influence approximation precision(gamma_guess >= gamma_opt / lambda^2)
 
     vector<string> filePaths = {"../dataset/2d-r16-n10000", "../dataset/4d-r24-n10000", "../dataset/8d-r12-n10000"};  
     for(string filePath : filePaths){
         // Load dataset from file
         vector<Point> data, trainData, testData;
         loadData(filePath, data, dimension, numSamples, R);
-        splitData(data, trainData, testData, 0.5);
-        vector<double> w(dimension, 0.0);
+        splitData(data, trainData, testData, 0.8);
+        
         double gamma_guess = R;
+        vector<double> w(dimension, 0.0);
 
-        // Run Margin Perceptron
-        marginPerceptron(trainData, w, gamma_guess, lambda, R);
+        // Iteratively adjust gamma_guess
+        while (true) {
+            // Reset weight vector
+            w.assign(dimension, 0.0);
+
+            // Run Margin Perceptron
+            bool converged = marginPerceptron(trainData, w, gamma_guess, lambda, R);
+
+            // Calculate the final margin
+            double final_margin = calculateFinalMargin(data, w);
+            cout << "Final margin after convergence: " << final_margin << endl;
+
+            // Check if conditions are met
+            if (converged && final_margin >= gamma_guess / lambda) {
+                // Accept the result and break the loop
+                break;
+            } else {
+                // Reduce gamma_guess and try again
+                gamma_guess /= lambda;//lambda
+                cout << "Reducing gamma_guess to " << gamma_guess << " and restarting." << endl;
+            }
+        }
 
         // Output the final weight vector
         cout << "Final weight vector: ";
@@ -95,7 +116,7 @@ void loadData(const string& filePath, vector<Point>& data, int& dimension, int& 
     }
 
     file.close();
-    cout << "Dataset loaded: " << numSamples << " samples, dimension: " << dimension << ", R: " << R << endl;
+    cout << "\nDataset loaded: " << numSamples << " samples, dimension: " << dimension << ", R: " << R << endl;
 }
 
 void splitData(const vector<Point>& data, vector<Point>& trainData, vector<Point>& testData, double trainRatio) {
@@ -144,16 +165,19 @@ double calculateFinalMargin(const vector<Point>& data, const vector<double>& w) 
 }
 
 // Margin Perceptron Algorithm
-void marginPerceptron(vector<Point>& data, vector<double>& w, double gamma_guess, double Lambda, double R) {
-    int iteration = 0, max_iterations = (12 * R * R)/ (gamma_guess*gamma_guess);
+// Margin Perceptron Algorithm
+bool marginPerceptron(vector<Point>& data, vector<double>& w, double gamma_guess, double Lambda, double R) {
+    int iteration = 0;
+    int max_iterations = static_cast<int>((12 * R * R) / (gamma_guess * gamma_guess));
     bool violations_found;
+    bool forced_termination = false;
 
     do {
         violations_found = false;
-        // run margin perceptron with parameter gamma_guess
+        // Run margin perceptron with parameter gamma_guess
         for (const auto& p : data) {
             double wx = dotProduct(w, p.features);
-            // Check for violations based on distance to the plane and label
+            // Check for violations
             if (abs(wx) < gamma_guess / Lambda || (p.label == 1 && wx < 0) || (p.label == -1 && wx > 0)) {
                 // Update weight vector w based on the violation
                 if (p.label == 1) {
@@ -174,17 +198,17 @@ void marginPerceptron(vector<Point>& data, vector<double>& w, double gamma_guess
         // Forced termination condition
         if (iteration >= max_iterations) {
             cout << "Forced termination after " << iteration << " iterations." << endl;
-            gamma_guess /= Lambda;  // Set new gamma_guess
-            iteration = 0;  // Restart
-            max_iterations = (12 * R * R)/ (gamma_guess*gamma_guess);
+            forced_termination = true;
+            break;
         }
 
     } while (violations_found);
 
-    cout << "Margin Perceptron converged after " << iteration << " iterations." << endl;
+    if (!forced_termination) {
+        cout << "Margin Perceptron converged after " << iteration << " iterations." << endl;
+    }
 
-    double final_margin = calculateFinalMargin(data, w);
-    cout << "Final margin after convergence: " << final_margin << endl;
+    return !forced_termination;  // Return true if converged without forced termination
 }
 
 //test the accuracy of the trained perceptron model
