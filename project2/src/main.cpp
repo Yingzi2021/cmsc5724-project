@@ -48,7 +48,7 @@ int main() {
         vector<double> w(dimension, 0.0);
         double lambda = 2.0; //influence approximation precision(gamma_guess >= gamma_opt / lambda^2)
         //try different lambda
-        while(lambda > 1.0){
+        while(lambda >= 1.01){
             double gamma_guess = R;
             cout << "lambda = " << lambda << endl;
             // Iteratively adjust gamma_guess
