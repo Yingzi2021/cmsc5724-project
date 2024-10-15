@@ -35,50 +35,58 @@ double calculateRadius(const vector<Point>& data) {
 int main() {
     // Variables to store dataset information
     int dimension = 0, numSamples = 0;
-    double R = 0.0, lambda = 2; //influence approximation precision(gamma_guess >= gamma_opt / lambda^2)
+    double R = 0.0;
 
     vector<string> filePaths = {"../dataset/2d-r16-n10000", "../dataset/4d-r24-n10000", "../dataset/8d-r12-n10000"};  
+    //vector<string> filePaths = {"../dataset/adult.txt"};  
     for(string filePath : filePaths){
         // Load dataset from file
         vector<Point> data, trainData, testData;
         loadData(filePath, data, dimension, numSamples, R);
         splitData(data, trainData, testData, 0.8);
         
-        double gamma_guess = R;
         vector<double> w(dimension, 0.0);
+        double lambda = 2.0; //influence approximation precision(gamma_guess >= gamma_opt / lambda^2)
+        //try different lambda
+        while(lambda > 1.0){
+            double gamma_guess = R;
+            cout << "lambda = " << lambda << endl;
+            // Iteratively adjust gamma_guess
+            while (true) {
+                // Reset weight vector
+                w.assign(dimension, 0.0);
 
-        // Iteratively adjust gamma_guess
-        while (true) {
-            // Reset weight vector
-            w.assign(dimension, 0.0);
+                // Run Margin Perceptron
+                bool converged = marginPerceptron(trainData, w, gamma_guess, lambda, R);
 
-            // Run Margin Perceptron
-            bool converged = marginPerceptron(trainData, w, gamma_guess, lambda, R);
+                // Calculate the final margin
+                double final_margin = calculateFinalMargin(trainData, w);
 
-            // Calculate the final margin
-            double final_margin = calculateFinalMargin(data, w);
-            cout << "Final margin after convergence: " << final_margin << endl;
-
-            // Check if conditions are met
-            if (converged && final_margin >= gamma_guess / lambda) {
-                // Accept the result and break the loop
-                break;
-            } else {
-                // Reduce gamma_guess and try again
-                gamma_guess /= lambda;//lambda
-                cout << "Reducing gamma_guess to " << gamma_guess << " and restarting." << endl;
+                // Check if conditions are met
+                if (converged && final_margin >= gamma_guess / lambda) {
+                    // Accept the result and break the loop
+                    cout << "Final margin after convergence: " << final_margin << endl;
+                    break;
+                } else {
+                    // Reduce gamma_guess and try again
+                    gamma_guess /= lambda;
+                    cout << "Reducing gamma_guess to " << gamma_guess << " and restarting." << endl;
+                }
             }
-        }
 
-        // Output the final weight vector
-        cout << "Final weight vector: ";
-        for (double wi : w) {
-            cout << wi << " ";
+            // Output the final weight vector
+            cout << "Final weight vector: ";
+            for (double wi : w) {
+                cout << wi << " ";
+            }
+            cout << endl;
+            // Test the model on test data and output accuracy
+            double accuracy = test(testData, w);
+            cout << "Test accuracy: " << accuracy * 100 << "%" << endl << endl;
+
+            //update lambda
+            lambda -= 0.01;
         }
-        cout << endl;
-        // Test the model on test data and output accuracy
-        double accuracy = test(testData, w);
-        cout << "Test accuracy: " << accuracy * 100 << "%" << endl << endl;
     }
 
     return 0;
@@ -116,7 +124,7 @@ void loadData(const string& filePath, vector<Point>& data, int& dimension, int& 
     }
 
     file.close();
-    cout << "\nDataset loaded: " << numSamples << " samples, dimension: " << dimension << ", R: " << R << endl;
+    cout << "Dataset loaded: " << numSamples << " samples, dimension: " << dimension << ", R: " << R << endl;
 }
 
 void splitData(const vector<Point>& data, vector<Point>& trainData, vector<Point>& testData, double trainRatio) {
@@ -155,7 +163,7 @@ double calculateFinalMargin(const vector<Point>& data, const vector<double>& w) 
     double margin = numeric_limits<double>::max();
 
     for (const auto& p : data) {
-        double dist = (dotProduct(w, p.features) * p.label) / norm_w;  // Calculate the margin
+        double dist = abs(dotProduct(w, p.features)) / norm_w;  // Calculate the margin
         if (dist < margin) {
             margin = dist;
         }
@@ -165,29 +173,29 @@ double calculateFinalMargin(const vector<Point>& data, const vector<double>& w) 
 }
 
 // Margin Perceptron Algorithm
-// Margin Perceptron Algorithm
 bool marginPerceptron(vector<Point>& data, vector<double>& w, double gamma_guess, double Lambda, double R) {
     int iteration = 0;
     int max_iterations = static_cast<int>((12 * R * R) / (gamma_guess * gamma_guess));
+    const double epsilon = 1e-8;
     bool violations_found;
     bool forced_termination = false;
 
     do {
         violations_found = false;
+        double norm_w = calculateNorm(w);
+        if (norm_w == 0.0) {
+            norm_w = epsilon;
+        }
+
         // Run margin perceptron with parameter gamma_guess
         for (const auto& p : data) {
             double wx = dotProduct(w, p.features);
+            double dist = abs(wx)/norm_w;
             // Check for violations
-            if (abs(wx) < gamma_guess / Lambda || (p.label == 1 && wx < 0) || (p.label == -1 && wx > 0)) {
+            if (dist < gamma_guess / Lambda || (p.label == 1 && wx < 0) || (p.label == -1 && wx > 0)) {
                 // Update weight vector w based on the violation
-                if (p.label == 1) {
-                    for (size_t i = 0; i < w.size(); ++i) {
-                        w[i] += p.features[i];  // w = w + p
-                    }
-                } else {
-                    for (size_t i = 0; i < w.size(); ++i) {
-                        w[i] -= p.features[i];  // w = w - p
-                    }
+                for (size_t i = 0; i < w.size(); ++i) {
+                    w[i] += p.label * p.features[i];  // w = w + y * x
                 }
                 violations_found = true;
                 break;
