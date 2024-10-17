@@ -116,12 +116,13 @@ def plot_dataset_details(all_data):
         gamma_guesses = [dp['gamma_guess'] for dp in data_points]
         gamma_guess_over_lambda = [gg / lmbd if lmbd != 0 else None for gg, lmbd in zip(gamma_guesses, lambdas)]
         # Sort the data
-        sorted_data = sorted(zip(lambdas, margins, gamma_guess_over_lambda), reverse=True)
-        lambdas, margins, gamma_guess_over_lambda = zip(*sorted_data)
+        sorted_data = sorted(zip(lambdas, margins, gamma_guess_over_lambda, gamma_guesses), reverse=True)
+        lambdas, margins, gamma_guess_over_lambda, gamma_guesses = zip(*sorted_data)
         # Create subplot
         plt.subplot(1, num_datasets, idx+1)
-        plt.plot(lambdas, margins, marker='o', label='Final Margin')
-        plt.plot(lambdas, gamma_guess_over_lambda, marker='x', label=r'$\gamma_{\text{guess}} / \lambda$')
+        plt.plot(lambdas, margins, marker='o', markersize=2, label='Final Margin')
+        plt.plot(lambdas, gamma_guess_over_lambda, marker='x', markersize=2, label=r'$\gamma_{\text{guess}} / \lambda$')
+        plt.plot(lambdas, gamma_guesses, color='gray', marker='s', markersize=2, label=r'$\gamma_{\text{guess}}$')
         plt.xlabel('Lambda')
         plt.ylabel('Value')
         plt.title(f'Lambda vs Value for {label}')
