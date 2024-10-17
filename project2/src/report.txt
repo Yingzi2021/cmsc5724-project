@@ -1,0 +1,29 @@
+Dataset loaded: 10000 samples, dimension: 2, R: 16
+lambda = 2
+Forced termination after 12 iterations.
+Reducing gamma_guess to 8 and restarting.
+Forced termination after 48 iterations.
+Reducing gamma_guess to 4 and restarting.
+Margin Perceptron converged after 10 iterations.
+Final margin after convergence: 2.72881
+Final weight vector: 2.0833 -43.0369 
+Test accuracy: 100%
+
+Dataset loaded: 10000 samples, dimension: 4, R: 24
+lambda = 2
+Forced termination after 12 iterations.
+Reducing gamma_guess to 12 and restarting.
+Margin Perceptron converged after 11 iterations.
+Final margin after convergence: 6.32807
+Final weight vector: 18.2411 -37.4516 -70.0285 53.405 
+Test accuracy: 100%
+
+Dataset loaded: 10000 samples, dimension: 8, R: 12
+lambda = 2
+Forced termination after 12 iterations.
+Reducing gamma_guess to 6 and restarting.
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.0505
+Final weight vector: -11.6929 -17.1088 -30.0111 -5.65251 43.2584 30.059 41.7977 -7.50762 
+Test accuracy: 100%
+

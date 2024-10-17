@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import re
 
 # Read data from the file
-with open('./result.txt', 'r') as file:
+with open('./appendix_result.txt', 'r') as file:
     data = file.read()
 
 # Split the data into datasets based on the "Dataset loaded" delimiter
@@ -87,5 +87,5 @@ plt.grid(True)
 plt.gca().invert_xaxis()
 
 # Save the figure as 'fig.png'
-plt.savefig('fig.png', dpi=500)
+plt.savefig('1.png', dpi=500) # 1.png
 plt.show()

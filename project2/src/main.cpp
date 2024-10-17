@@ -38,7 +38,7 @@ int main() {
     double R = 0.0;
 
     vector<string> filePaths = {"../dataset/2d-r16-n10000", "../dataset/4d-r24-n10000", "../dataset/8d-r12-n10000"};  
-    //vector<string> filePaths = {"../dataset/adult.txt"};  
+    //vector<string> filePaths = {"../dataset/ionosphere/ionosphere_converted.data"};
     for(string filePath : filePaths){
         // Load dataset from file
         vector<Point> data, trainData, testData;
@@ -63,7 +63,7 @@ int main() {
                 double final_margin = calculateFinalMargin(trainData, w);
 
                 // Check if conditions are met
-                if (converged && final_margin >= gamma_guess / lambda) {
+                if (converged) {
                     // Accept the result and break the loop
                     cout << "Final margin after convergence: " << final_margin << endl;
                     break;
@@ -85,7 +85,7 @@ int main() {
             cout << "Test accuracy: " << accuracy * 100 << "%" << endl << endl;
 
             //update lambda
-            lambda -= 0.01;
+            lambda -= 0.01;//0.01
         }
     }
 
