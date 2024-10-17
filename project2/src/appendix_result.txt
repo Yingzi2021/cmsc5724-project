@@ -4,9 +4,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8 and restarting.
 Forced termination after 48 iterations.
 Reducing gamma_guess to 4 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.85344
-Final weight vector: 2.27003 -40.0989 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.99
@@ -14,9 +14,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.0402 and restarting.
 Forced termination after 47 iterations.
 Reducing gamma_guess to 4.0403 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.85344
-Final weight vector: 2.27003 -40.0989 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.98
@@ -24,9 +24,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.08081 and restarting.
 Forced termination after 47 iterations.
 Reducing gamma_guess to 4.08122 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.85344
-Final weight vector: 2.27003 -40.0989 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.97
@@ -34,9 +34,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.12183 and restarting.
 Forced termination after 46 iterations.
 Reducing gamma_guess to 4.12276 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.85344
-Final weight vector: 2.27003 -40.0989 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.96
@@ -44,9 +44,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.16327 and restarting.
 Forced termination after 46 iterations.
 Reducing gamma_guess to 4.16493 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.85344
-Final weight vector: 2.27003 -40.0989 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.95
@@ -54,9 +54,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.20513 and restarting.
 Forced termination after 45 iterations.
 Reducing gamma_guess to 4.20776 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.85344
-Final weight vector: 2.27003 -40.0989 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.94
@@ -64,9 +64,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.24742 and restarting.
 Forced termination after 45 iterations.
 Reducing gamma_guess to 4.25125 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.85344
-Final weight vector: 2.27003 -40.0989 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.93
@@ -74,9 +74,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.29016 and restarting.
 Forced termination after 44 iterations.
 Reducing gamma_guess to 4.29542 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.85344
-Final weight vector: 2.27003 -40.0989 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.92
@@ -84,9 +84,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.33333 and restarting.
 Forced termination after 44 iterations.
 Reducing gamma_guess to 4.34028 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.54974
-Final weight vector: 1.75632 -48.3719 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.91
@@ -94,9 +94,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.37696 and restarting.
 Forced termination after 43 iterations.
 Reducing gamma_guess to 4.38584 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.54974
-Final weight vector: 1.75632 -48.3719 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.9
@@ -104,9 +104,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.42105 and restarting.
 Forced termination after 43 iterations.
 Reducing gamma_guess to 4.43213 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.54974
-Final weight vector: 1.75632 -48.3719 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.89
@@ -114,9 +114,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.46561 and restarting.
 Forced termination after 42 iterations.
 Reducing gamma_guess to 4.47916 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.87791
-Final weight vector: 2.88267 -49.4555 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.88
@@ -124,9 +124,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.51064 and restarting.
 Forced termination after 42 iterations.
 Reducing gamma_guess to 4.52694 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.87791
-Final weight vector: 2.88267 -49.4555 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.87
@@ -134,9 +134,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.55615 and restarting.
 Forced termination after 41 iterations.
 Reducing gamma_guess to 4.57548 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.87791
-Final weight vector: 2.88267 -49.4555 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.86
@@ -144,9 +144,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.60215 and restarting.
 Forced termination after 41 iterations.
 Reducing gamma_guess to 4.62481 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.78992
-Final weight vector: 2.64208 -50.4788 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.85
@@ -154,9 +154,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.64865 and restarting.
 Forced termination after 41 iterations.
 Reducing gamma_guess to 4.67495 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 3.14898
-Final weight vector: 4.08242 -47.9175 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.84
@@ -164,9 +164,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.69565 and restarting.
 Forced termination after 40 iterations.
 Reducing gamma_guess to 4.7259 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.83
@@ -174,9 +174,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.74317 and restarting.
 Forced termination after 40 iterations.
 Reducing gamma_guess to 4.77769 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.82
@@ -184,9 +184,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.79121 and restarting.
 Forced termination after 39 iterations.
 Reducing gamma_guess to 4.83033 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.81
@@ -194,9 +194,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.83978 and restarting.
 Forced termination after 39 iterations.
 Reducing gamma_guess to 4.88386 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.8
@@ -204,9 +204,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.88889 and restarting.
 Forced termination after 38 iterations.
 Reducing gamma_guess to 4.93827 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 3.11239
+Final weight vector: 2.49947 -28.5179 
 Test accuracy: 100%
 
 lambda = 1.79
@@ -214,9 +214,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.93855 and restarting.
 Forced termination after 38 iterations.
 Reducing gamma_guess to 4.9936 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 3.11239
+Final weight vector: 2.49947 -28.5179 
 Test accuracy: 100%
 
 lambda = 1.78
@@ -224,9 +224,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 8.98876 and restarting.
 Forced termination after 38 iterations.
 Reducing gamma_guess to 5.04987 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 3.11239
+Final weight vector: 2.49947 -28.5179 
 Test accuracy: 100%
 
 lambda = 1.77
@@ -234,9 +234,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 9.03955 and restarting.
 Forced termination after 37 iterations.
 Reducing gamma_guess to 5.10709 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.01332
-Final weight vector: 3.76425 -55.6966 
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 3.11239
+Final weight vector: 2.49947 -28.5179 
 Test accuracy: 100%
 
 lambda = 1.76
@@ -245,8 +245,8 @@ Reducing gamma_guess to 9.09091 and restarting.
 Forced termination after 37 iterations.
 Reducing gamma_guess to 5.16529 and restarting.
 Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.01332
-Final weight vector: 3.76425 -55.6966 
+Final margin after convergence: 3.12448
+Final weight vector: 4.33894 -57.6684 
 Test accuracy: 100%
 
 lambda = 1.75
@@ -254,9 +254,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 9.14286 and restarting.
 Forced termination after 36 iterations.
 Reducing gamma_guess to 5.22449 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 3.08368
-Final weight vector: 4.27491 -47.1195 
+Margin Perceptron converged after 8 iterations.
+Final margin after convergence: 2.99341
+Final weight vector: 2.46879 -37.2836 
 Test accuracy: 100%
 
 lambda = 1.74
@@ -264,9 +264,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 9.1954 and restarting.
 Forced termination after 36 iterations.
 Reducing gamma_guess to 5.28471 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.04952
-Final weight vector: 4.01052 -57.2315 
+Margin Perceptron converged after 22 iterations.
+Final margin after convergence: 3.03897
+Final weight vector: 8.23804 -88.8089 
 Test accuracy: 100%
 
 lambda = 1.73
@@ -274,9 +274,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 9.24855 and restarting.
 Forced termination after 35 iterations.
 Reducing gamma_guess to 5.34599 and restarting.
-Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 3.10706
-Final weight vector: 4.78222 -64.5911 
+Margin Perceptron converged after 16 iterations.
+Final margin after convergence: 3.14885
+Final weight vector: 5.27018 -68.5151 
 Test accuracy: 100%
 
 lambda = 1.72
@@ -284,9 +284,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 9.30233 and restarting.
 Forced termination after 35 iterations.
 Reducing gamma_guess to 5.40833 and restarting.
-Margin Perceptron converged after 17 iterations.
-Final margin after convergence: 3.17548
-Final weight vector: 5.62762 -71.4544 
+Margin Perceptron converged after 16 iterations.
+Final margin after convergence: 3.14885
+Final weight vector: 5.27018 -68.5151 
 Test accuracy: 100%
 
 lambda = 1.71
@@ -296,9 +296,9 @@ Forced termination after 35 iterations.
 Reducing gamma_guess to 5.47177 and restarting.
 Forced termination after 102 iterations.
 Reducing gamma_guess to 3.19986 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.2849
-Final weight vector: 0.738351 -39.4774 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.7
@@ -308,9 +308,9 @@ Forced termination after 34 iterations.
 Reducing gamma_guess to 5.53633 and restarting.
 Forced termination after 100 iterations.
 Reducing gamma_guess to 3.25667 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.2849
-Final weight vector: 0.738351 -39.4774 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.69
@@ -320,9 +320,9 @@ Forced termination after 34 iterations.
 Reducing gamma_guess to 5.60204 and restarting.
 Forced termination after 97 iterations.
 Reducing gamma_guess to 3.31482 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.2849
-Final weight vector: 0.738351 -39.4774 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.68
@@ -332,9 +332,9 @@ Forced termination after 33 iterations.
 Reducing gamma_guess to 5.66893 and restarting.
 Forced termination after 95 iterations.
 Reducing gamma_guess to 3.37437 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.85344
-Final weight vector: 2.27003 -40.0989 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.67
@@ -344,9 +344,9 @@ Forced termination after 33 iterations.
 Reducing gamma_guess to 5.73703 and restarting.
 Forced termination after 93 iterations.
 Reducing gamma_guess to 3.43535 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.85344
-Final weight vector: 2.27003 -40.0989 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.66
@@ -356,9 +356,9 @@ Forced termination after 33 iterations.
 Reducing gamma_guess to 5.80636 and restarting.
 Forced termination after 91 iterations.
 Reducing gamma_guess to 3.49781 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.85344
-Final weight vector: 2.27003 -40.0989 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.65
@@ -368,9 +368,9 @@ Forced termination after 32 iterations.
 Reducing gamma_guess to 5.87695 and restarting.
 Forced termination after 88 iterations.
 Reducing gamma_guess to 3.56179 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.85344
-Final weight vector: 2.27003 -40.0989 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.64
@@ -380,9 +380,9 @@ Forced termination after 32 iterations.
 Reducing gamma_guess to 5.94884 and restarting.
 Forced termination after 86 iterations.
 Reducing gamma_guess to 3.62734 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.85344
-Final weight vector: 2.27003 -40.0989 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.63
@@ -392,9 +392,9 @@ Forced termination after 31 iterations.
 Reducing gamma_guess to 6.02206 and restarting.
 Forced termination after 84 iterations.
 Reducing gamma_guess to 3.69451 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.54974
-Final weight vector: 1.75632 -48.3719 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.62
@@ -404,9 +404,9 @@ Forced termination after 31 iterations.
 Reducing gamma_guess to 6.09663 and restarting.
 Forced termination after 82 iterations.
 Reducing gamma_guess to 3.76335 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.54974
-Final weight vector: 1.75632 -48.3719 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.61
@@ -416,9 +416,9 @@ Forced termination after 31 iterations.
 Reducing gamma_guess to 6.1726 and restarting.
 Forced termination after 80 iterations.
 Reducing gamma_guess to 3.83391 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.87791
-Final weight vector: 2.88267 -49.4555 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.6
@@ -428,9 +428,9 @@ Forced termination after 30 iterations.
 Reducing gamma_guess to 6.25 and restarting.
 Forced termination after 78 iterations.
 Reducing gamma_guess to 3.90625 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.87791
-Final weight vector: 2.88267 -49.4555 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.59
@@ -440,9 +440,9 @@ Forced termination after 30 iterations.
 Reducing gamma_guess to 6.32886 and restarting.
 Forced termination after 76 iterations.
 Reducing gamma_guess to 3.98042 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 3.14898
-Final weight vector: 4.08242 -47.9175 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.58
@@ -452,9 +452,9 @@ Forced termination after 29 iterations.
 Reducing gamma_guess to 6.40923 and restarting.
 Forced termination after 74 iterations.
 Reducing gamma_guess to 4.05647 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.57
@@ -464,9 +464,9 @@ Forced termination after 29 iterations.
 Reducing gamma_guess to 6.49114 and restarting.
 Forced termination after 72 iterations.
 Reducing gamma_guess to 4.13448 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.56
@@ -476,9 +476,9 @@ Forced termination after 29 iterations.
 Reducing gamma_guess to 6.57462 and restarting.
 Forced termination after 71 iterations.
 Reducing gamma_guess to 4.2145 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.55
@@ -488,9 +488,9 @@ Forced termination after 28 iterations.
 Reducing gamma_guess to 6.65973 and restarting.
 Forced termination after 69 iterations.
 Reducing gamma_guess to 4.2966 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 3.11239
+Final weight vector: 2.49947 -28.5179 
 Test accuracy: 100%
 
 lambda = 1.54
@@ -500,9 +500,9 @@ Forced termination after 28 iterations.
 Reducing gamma_guess to 6.7465 and restarting.
 Forced termination after 67 iterations.
 Reducing gamma_guess to 4.38084 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 3.11239
+Final weight vector: 2.49947 -28.5179 
 Test accuracy: 100%
 
 lambda = 1.53
@@ -513,8 +513,8 @@ Reducing gamma_guess to 6.83498 and restarting.
 Forced termination after 65 iterations.
 Reducing gamma_guess to 4.46731 and restarting.
 Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.01332
-Final weight vector: 3.76425 -55.6966 
+Final margin after convergence: 3.12448
+Final weight vector: 4.33894 -57.6684 
 Test accuracy: 100%
 
 lambda = 1.52
@@ -524,9 +524,9 @@ Forced termination after 27 iterations.
 Reducing gamma_guess to 6.92521 and restarting.
 Forced termination after 64 iterations.
 Reducing gamma_guess to 4.55606 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.04952
-Final weight vector: 4.01052 -57.2315 
+Margin Perceptron converged after 18 iterations.
+Final margin after convergence: 3.17014
+Final weight vector: 6.42351 -77.0163 
 Test accuracy: 100%
 
 lambda = 1.51
@@ -536,9 +536,9 @@ Forced termination after 27 iterations.
 Reducing gamma_guess to 7.01724 and restarting.
 Forced termination after 62 iterations.
 Reducing gamma_guess to 4.64718 and restarting.
-Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 3.10706
-Final weight vector: 4.78222 -64.5911 
+Margin Perceptron converged after 12 iterations.
+Final margin after convergence: 3.09891
+Final weight vector: 3.89271 -52.9788 
 Test accuracy: 100%
 
 lambda = 1.5
@@ -548,9 +548,9 @@ Forced termination after 26 iterations.
 Reducing gamma_guess to 7.11111 and restarting.
 Forced termination after 60 iterations.
 Reducing gamma_guess to 4.74074 and restarting.
-Margin Perceptron converged after 29 iterations.
-Final margin after convergence: 3.17614
-Final weight vector: 9.48029 -114.363 
+Margin Perceptron converged after 67 iterations.
+Final margin after convergence: 3.17045
+Final weight vector: 18.826 -240.094 
 Test accuracy: 100%
 
 lambda = 1.49
@@ -562,9 +562,9 @@ Forced termination after 59 iterations.
 Reducing gamma_guess to 4.83683 and restarting.
 Forced termination after 131 iterations.
 Reducing gamma_guess to 3.2462 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.85344
-Final weight vector: 2.27003 -40.0989 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.48
@@ -576,9 +576,9 @@ Forced termination after 57 iterations.
 Reducing gamma_guess to 4.93554 and restarting.
 Forced termination after 126 iterations.
 Reducing gamma_guess to 3.33483 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.54974
-Final weight vector: 1.75632 -48.3719 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.47
@@ -590,9 +590,9 @@ Forced termination after 56 iterations.
 Reducing gamma_guess to 5.03695 and restarting.
 Forced termination after 121 iterations.
 Reducing gamma_guess to 3.4265 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.54974
-Final weight vector: 1.75632 -48.3719 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.46
@@ -604,9 +604,9 @@ Forced termination after 54 iterations.
 Reducing gamma_guess to 5.14116 and restarting.
 Forced termination after 116 iterations.
 Reducing gamma_guess to 3.52134 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.87791
-Final weight vector: 2.88267 -49.4555 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.45
@@ -618,9 +618,9 @@ Forced termination after 53 iterations.
 Reducing gamma_guess to 5.24827 and restarting.
 Forced termination after 111 iterations.
 Reducing gamma_guess to 3.61949 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 3.14898
-Final weight vector: 4.08242 -47.9175 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.44
@@ -632,9 +632,9 @@ Forced termination after 51 iterations.
 Reducing gamma_guess to 5.35837 and restarting.
 Forced termination after 106 iterations.
 Reducing gamma_guess to 3.72109 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.43
@@ -646,9 +646,9 @@ Forced termination after 50 iterations.
 Reducing gamma_guess to 5.47157 and restarting.
 Forced termination after 102 iterations.
 Reducing gamma_guess to 3.82627 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.42
@@ -660,9 +660,9 @@ Forced termination after 48 iterations.
 Reducing gamma_guess to 5.58798 and restarting.
 Forced termination after 98 iterations.
 Reducing gamma_guess to 3.9352 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 3.11239
+Final weight vector: 2.49947 -28.5179 
 Test accuracy: 100%
 
 lambda = 1.41
@@ -674,9 +674,9 @@ Forced termination after 47 iterations.
 Reducing gamma_guess to 5.70772 and restarting.
 Forced termination after 94 iterations.
 Reducing gamma_guess to 4.04803 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.01332
-Final weight vector: 3.76425 -55.6966 
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 3.11239
+Final weight vector: 2.49947 -28.5179 
 Test accuracy: 100%
 
 lambda = 1.4
@@ -688,9 +688,9 @@ Forced termination after 46 iterations.
 Reducing gamma_guess to 5.8309 and restarting.
 Forced termination after 90 iterations.
 Reducing gamma_guess to 4.16493 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.01332
-Final weight vector: 3.76425 -55.6966 
+Margin Perceptron converged after 8 iterations.
+Final margin after convergence: 2.99341
+Final weight vector: 2.46879 -37.2836 
 Test accuracy: 100%
 
 lambda = 1.39
@@ -702,9 +702,9 @@ Forced termination after 44 iterations.
 Reducing gamma_guess to 5.95766 and restarting.
 Forced termination after 86 iterations.
 Reducing gamma_guess to 4.28609 and restarting.
-Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 3.10706
-Final weight vector: 4.78222 -64.5911 
+Margin Perceptron converged after 16 iterations.
+Final margin after convergence: 3.14885
+Final weight vector: 5.27018 -68.5151 
 Test accuracy: 100%
 
 lambda = 1.38
@@ -716,9 +716,9 @@ Forced termination after 43 iterations.
 Reducing gamma_guess to 6.08811 and restarting.
 Forced termination after 82 iterations.
 Reducing gamma_guess to 4.41168 and restarting.
-Margin Perceptron converged after 128 iterations.
-Final margin after convergence: 3.19969
-Final weight vector: 36.0999 -447.808 
+Margin Perceptron converged after 116 iterations.
+Final margin after convergence: 3.19765
+Final weight vector: 32.2332 -397.578 
 Test accuracy: 100%
 
 lambda = 1.37
@@ -732,9 +732,9 @@ Forced termination after 79 iterations.
 Reducing gamma_guess to 4.5419 and restarting.
 Forced termination after 148 iterations.
 Reducing gamma_guess to 3.31526 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 2.87791
-Final weight vector: 2.88267 -49.4555 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.36
@@ -748,9 +748,9 @@ Forced termination after 75 iterations.
 Reducing gamma_guess to 4.67697 and restarting.
 Forced termination after 140 iterations.
 Reducing gamma_guess to 3.43895 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 3.14898
-Final weight vector: 4.08242 -47.9175 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.35
@@ -764,9 +764,9 @@ Forced termination after 72 iterations.
 Reducing gamma_guess to 4.81709 and restarting.
 Forced termination after 132 iterations.
 Reducing gamma_guess to 3.56822 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.34
@@ -780,9 +780,9 @@ Forced termination after 69 iterations.
 Reducing gamma_guess to 4.9625 and restarting.
 Forced termination after 124 iterations.
 Reducing gamma_guess to 3.70336 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 3.11239
+Final weight vector: 2.49947 -28.5179 
 Test accuracy: 100%
 
 lambda = 1.33
@@ -797,8 +797,8 @@ Reducing gamma_guess to 5.11344 and restarting.
 Forced termination after 117 iterations.
 Reducing gamma_guess to 3.84469 and restarting.
 Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.01332
-Final weight vector: 3.76425 -55.6966 
+Final margin after convergence: 3.12448
+Final weight vector: 4.33894 -57.6684 
 Test accuracy: 100%
 
 lambda = 1.32
@@ -812,9 +812,9 @@ Forced termination after 63 iterations.
 Reducing gamma_guess to 5.27017 and restarting.
 Forced termination after 110 iterations.
 Reducing gamma_guess to 3.99255 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.04952
-Final weight vector: 4.01052 -57.2315 
+Margin Perceptron converged after 18 iterations.
+Final margin after convergence: 3.17014
+Final weight vector: 6.42351 -77.0163 
 Test accuracy: 100%
 
 lambda = 1.31
@@ -828,9 +828,9 @@ Forced termination after 60 iterations.
 Reducing gamma_guess to 5.43294 and restarting.
 Forced termination after 104 iterations.
 Reducing gamma_guess to 4.14728 and restarting.
-Margin Perceptron converged after 19 iterations.
-Final margin after convergence: 3.19623
-Final weight vector: 6.39931 -78.814 
+Margin Perceptron converged after 26 iterations.
+Final margin after convergence: 3.18679
+Final weight vector: 8.82069 -107.577 
 Test accuracy: 100%
 
 lambda = 1.3
@@ -846,9 +846,9 @@ Forced termination after 97 iterations.
 Reducing gamma_guess to 4.30927 and restarting.
 Forced termination after 165 iterations.
 Reducing gamma_guess to 3.31482 and restarting.
-Margin Perceptron converged after 11 iterations.
-Final margin after convergence: 3.14898
-Final weight vector: 4.08242 -47.9175 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.29
@@ -864,9 +864,9 @@ Forced termination after 92 iterations.
 Reducing gamma_guess to 4.4789 and restarting.
 Forced termination after 153 iterations.
 Reducing gamma_guess to 3.47202 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.28
@@ -882,9 +882,9 @@ Forced termination after 86 iterations.
 Reducing gamma_guess to 4.65661 and restarting.
 Forced termination after 141 iterations.
 Reducing gamma_guess to 3.63798 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 3.11239
+Final weight vector: 2.49947 -28.5179 
 Test accuracy: 100%
 
 lambda = 1.27
@@ -900,9 +900,9 @@ Forced termination after 81 iterations.
 Reducing gamma_guess to 4.84285 and restarting.
 Forced termination after 130 iterations.
 Reducing gamma_guess to 3.81327 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.04952
-Final weight vector: 4.01052 -57.2315 
+Margin Perceptron converged after 18 iterations.
+Final margin after convergence: 3.17014
+Final weight vector: 6.42351 -77.0163 
 Test accuracy: 100%
 
 lambda = 1.26
@@ -918,9 +918,9 @@ Forced termination after 76 iterations.
 Reducing gamma_guess to 5.03811 and restarting.
 Forced termination after 121 iterations.
 Reducing gamma_guess to 3.9985 and restarting.
-Margin Perceptron converged after 19 iterations.
-Final margin after convergence: 3.19623
-Final weight vector: 6.39931 -78.814 
+Margin Perceptron converged after 29 iterations.
+Final margin after convergence: 3.20109
+Final weight vector: 9.33132 -115.524 
 Test accuracy: 100%
 
 lambda = 1.25
@@ -938,9 +938,9 @@ Forced termination after 111 iterations.
 Reducing gamma_guess to 4.1943 and restarting.
 Forced termination after 174 iterations.
 Reducing gamma_guess to 3.35544 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.24
@@ -958,9 +958,9 @@ Forced termination after 103 iterations.
 Reducing gamma_guess to 4.40139 and restarting.
 Forced termination after 158 iterations.
 Reducing gamma_guess to 3.54951 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 3.11239
+Final weight vector: 2.49947 -28.5179 
 Test accuracy: 100%
 
 lambda = 1.23
@@ -979,8 +979,8 @@ Reducing gamma_guess to 4.6205 and restarting.
 Forced termination after 143 iterations.
 Reducing gamma_guess to 3.75651 and restarting.
 Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 3.10706
-Final weight vector: 4.78222 -64.5911 
+Final margin after convergence: 3.08228
+Final weight vector: 5.80225 -64.6535 
 Test accuracy: 100%
 
 lambda = 1.22
@@ -1000,9 +1000,9 @@ Forced termination after 130 iterations.
 Reducing gamma_guess to 3.97742 and restarting.
 Forced termination after 194 iterations.
 Reducing gamma_guess to 3.26018 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 3 iterations.
+Final margin after convergence: 2.71875
+Final weight vector: 1.79582 -15.6057 
 Test accuracy: 100%
 
 lambda = 1.21
@@ -1022,9 +1022,9 @@ Forced termination after 118 iterations.
 Reducing gamma_guess to 4.2133 and restarting.
 Forced termination after 173 iterations.
 Reducing gamma_guess to 3.48207 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.01332
-Final weight vector: 3.76425 -55.6966 
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 3.11239
+Final weight vector: 2.49947 -28.5179 
 Test accuracy: 100%
 
 lambda = 1.2
@@ -1044,9 +1044,9 @@ Forced termination after 106 iterations.
 Reducing gamma_guess to 4.46531 and restarting.
 Forced termination after 154 iterations.
 Reducing gamma_guess to 3.72109 and restarting.
-Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 3.10706
-Final weight vector: 4.78222 -64.5911 
+Margin Perceptron converged after 16 iterations.
+Final margin after convergence: 3.14885
+Final weight vector: 5.27018 -68.5151 
 Test accuracy: 100%
 
 lambda = 1.19
@@ -1068,9 +1068,9 @@ Forced termination after 137 iterations.
 Reducing gamma_guess to 3.97873 and restarting.
 Forced termination after 194 iterations.
 Reducing gamma_guess to 3.34347 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 3.11239
+Final weight vector: 2.49947 -28.5179 
 Test accuracy: 100%
 
 lambda = 1.18
@@ -1093,8 +1093,8 @@ Reducing gamma_guess to 4.25661 and restarting.
 Forced termination after 169 iterations.
 Reducing gamma_guess to 3.6073 and restarting.
 Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 3.10706
-Final weight vector: 4.78222 -64.5911 
+Final margin after convergence: 3.08228
+Final weight vector: 5.80225 -64.6535 
 Test accuracy: 100%
 
 lambda = 1.17
@@ -1118,9 +1118,9 @@ Forced termination after 147 iterations.
 Reducing gamma_guess to 3.89446 and restarting.
 Forced termination after 202 iterations.
 Reducing gamma_guess to 3.3286 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 3.05658
-Final weight vector: 2.71201 -38.4348 
+Margin Perceptron converged after 6 iterations.
+Final margin after convergence: 3.11239
+Final weight vector: 2.49947 -28.5179 
 Test accuracy: 100%
 
 lambda = 1.16
@@ -1144,9 +1144,9 @@ Forced termination after 128 iterations.
 Reducing gamma_guess to 4.20725 and restarting.
 Forced termination after 173 iterations.
 Reducing gamma_guess to 3.62694 and restarting.
-Margin Perceptron converged after 17 iterations.
-Final margin after convergence: 3.13543
-Final weight vector: 5.60352 -73.7361 
+Margin Perceptron converged after 16 iterations.
+Final margin after convergence: 3.14885
+Final weight vector: 5.27018 -68.5151 
 Test accuracy: 100%
 
 lambda = 1.15
@@ -1172,9 +1172,9 @@ Forced termination after 148 iterations.
 Reducing gamma_guess to 3.95496 and restarting.
 Forced termination after 196 iterations.
 Reducing gamma_guess to 3.43909 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.04952
-Final weight vector: 4.01052 -57.2315 
+Margin Perceptron converged after 8 iterations.
+Final margin after convergence: 2.99341
+Final weight vector: 2.46879 -37.2836 
 Test accuracy: 100%
 
 lambda = 1.14
@@ -1203,8 +1203,8 @@ Reducing gamma_guess to 3.78588 and restarting.
 Forced termination after 214 iterations.
 Reducing gamma_guess to 3.32095 and restarting.
 Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.01332
-Final weight vector: 3.76425 -55.6966 
+Final margin after convergence: 3.12448
+Final weight vector: 4.33894 -57.6684 
 Test accuracy: 100%
 
 lambda = 1.13
@@ -1235,8 +1235,8 @@ Reducing gamma_guess to 3.69129 and restarting.
 Forced termination after 225 iterations.
 Reducing gamma_guess to 3.26663 and restarting.
 Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.01332
-Final weight vector: 3.76425 -55.6966 
+Final margin after convergence: 3.12448
+Final weight vector: 4.33894 -57.6684 
 Test accuracy: 100%
 
 lambda = 1.12
@@ -1269,8 +1269,8 @@ Reducing gamma_guess to 3.66679 and restarting.
 Forced termination after 228 iterations.
 Reducing gamma_guess to 3.27392 and restarting.
 Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.01332
-Final weight vector: 3.76425 -55.6966 
+Final margin after convergence: 3.12448
+Final weight vector: 4.33894 -57.6684 
 Test accuracy: 100%
 
 lambda = 1.11
@@ -1304,9 +1304,9 @@ Forced termination after 180 iterations.
 Reducing gamma_guess to 3.71192 and restarting.
 Forced termination after 222 iterations.
 Reducing gamma_guess to 3.34407 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 3.04952
-Final weight vector: 4.01052 -57.2315 
+Margin Perceptron converged after 18 iterations.
+Final margin after convergence: 3.17014
+Final weight vector: 6.42351 -77.0163 
 Test accuracy: 100%
 
 lambda = 1.1
@@ -1342,9 +1342,9 @@ Forced termination after 173 iterations.
 Reducing gamma_guess to 3.83027 and restarting.
 Forced termination after 209 iterations.
 Reducing gamma_guess to 3.48207 and restarting.
-Margin Perceptron converged after 19 iterations.
-Final margin after convergence: 3.19623
-Final weight vector: 6.39931 -78.814 
+Margin Perceptron converged after 26 iterations.
+Final margin after convergence: 3.18679
+Final weight vector: 8.82069 -107.577 
 Test accuracy: 100%
 
 lambda = 1.09
@@ -1384,9 +1384,9 @@ Forced termination after 189 iterations.
 Reducing gamma_guess to 3.69717 and restarting.
 Forced termination after 224 iterations.
 Reducing gamma_guess to 3.3919 and restarting.
-Margin Perceptron converged after 17 iterations.
-Final margin after convergence: 3.13543
-Final weight vector: 5.60352 -73.7361 
+Margin Perceptron converged after 16 iterations.
+Final margin after convergence: 3.14885
+Final weight vector: 5.27018 -68.5151 
 Test accuracy: 100%
 
 lambda = 1.08
@@ -1430,9 +1430,9 @@ Forced termination after 191 iterations.
 Reducing gamma_guess to 3.70739 and restarting.
 Forced termination after 223 iterations.
 Reducing gamma_guess to 3.43277 and restarting.
-Margin Perceptron converged after 19 iterations.
-Final margin after convergence: 3.19623
-Final weight vector: 6.39931 -78.814 
+Margin Perceptron converged after 29 iterations.
+Final margin after convergence: 3.20109
+Final weight vector: 9.33132 -115.524 
 Test accuracy: 100%
 
 lambda = 1.07
@@ -1482,9 +1482,9 @@ Forced termination after 205 iterations.
 Reducing gamma_guess to 3.61141 and restarting.
 Forced termination after 235 iterations.
 Reducing gamma_guess to 3.37515 and restarting.
-Margin Perceptron converged after 31 iterations.
-Final margin after convergence: 3.15543
-Final weight vector: 10.2683 -121.303 
+Margin Perceptron converged after 36 iterations.
+Final margin after convergence: 3.16996
+Final weight vector: 10.7814 -137.558 
 Test accuracy: 100%
 
 lambda = 1.06
@@ -1542,9 +1542,9 @@ Forced termination after 221 iterations.
 Reducing gamma_guess to 3.51696 and restarting.
 Forced termination after 248 iterations.
 Reducing gamma_guess to 3.31789 and restarting.
-Margin Perceptron converged after 17 iterations.
-Final margin after convergence: 3.13543
-Final weight vector: 5.60352 -73.7361 
+Margin Perceptron converged after 16 iterations.
+Final margin after convergence: 3.14885
+Final weight vector: 5.27018 -68.5151 
 Test accuracy: 100%
 
 lambda = 1.05
@@ -1612,9 +1612,9 @@ Forced termination after 224 iterations.
 Reducing gamma_guess to 3.52575 and restarting.
 Forced termination after 247 iterations.
 Reducing gamma_guess to 3.35786 and restarting.
-Margin Perceptron converged after 128 iterations.
-Final margin after convergence: 3.19969
-Final weight vector: 36.0999 -447.808 
+Margin Perceptron converged after 100 iterations.
+Final margin after convergence: 3.2002
+Final weight vector: 27.9274 -345.385 
 Test accuracy: 100%
 
 lambda = 1.04
@@ -1700,9 +1700,9 @@ Forced termination after 255 iterations.
 Reducing gamma_guess to 3.33262 and restarting.
 Forced termination after 276 iterations.
 Reducing gamma_guess to 3.20445 and restarting.
-Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 3.10706
-Final weight vector: 4.78222 -64.5911 
+Margin Perceptron converged after 12 iterations.
+Final margin after convergence: 3.09891
+Final weight vector: 3.89271 -52.9788 
 Test accuracy: 100%
 
 lambda = 1.03
@@ -1814,9 +1814,9 @@ Forced termination after 259 iterations.
 Reducing gamma_guess to 3.34 and restarting.
 Forced termination after 275 iterations.
 Reducing gamma_guess to 3.24272 and restarting.
-Margin Perceptron converged after 17 iterations.
-Final margin after convergence: 3.17167
-Final weight vector: 5.94954 -71.4443 
+Margin Perceptron converged after 16 iterations.
+Final margin after convergence: 3.14885
+Final weight vector: 5.27018 -68.5151 
 Test accuracy: 100%
 
 lambda = 1.02
@@ -1982,106 +1982,108 @@ Forced termination after 274 iterations.
 Reducing gamma_guess to 3.28176 and restarting.
 Forced termination after 285 iterations.
 Reducing gamma_guess to 3.21741 and restarting.
-Margin Perceptron converged after 31 iterations.
-Final margin after convergence: 3.15543
-Final weight vector: 10.2683 -121.303 
+Margin Perceptron converged after 36 iterations.
+Final margin after convergence: 3.16996
+Final weight vector: 10.7814 -137.558 
 Test accuracy: 100%
 
 Dataset loaded: 10000 samples, dimension: 4, R: 24
 lambda = 2
 Forced termination after 12 iterations.
 Reducing gamma_guess to 12 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 6.18988
-Final weight vector: 23.1071 -44.2564 -80.7294 60.1178 
+Margin Perceptron converged after 25 iterations.
+Final margin after convergence: 6.14859
+Final weight vector: 29.6308 -84.0661 -135.792 95.634 
 Test accuracy: 100%
 
 lambda = 1.99
 Forced termination after 12 iterations.
 Reducing gamma_guess to 12.0603 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 6.18988
-Final weight vector: 23.1071 -44.2564 -80.7294 60.1178 
+Margin Perceptron converged after 23 iterations.
+Final margin after convergence: 6.10881
+Final weight vector: 40.0305 -73.4057 -119.031 96.2145 
 Test accuracy: 100%
 
 lambda = 1.98
 Forced termination after 12 iterations.
 Reducing gamma_guess to 12.1212 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 6.18988
-Final weight vector: 23.1071 -44.2564 -80.7294 60.1178 
+Margin Perceptron converged after 24 iterations.
+Final margin after convergence: 6.17139
+Final weight vector: 30.4497 -67.6503 -130.962 101.844 
 Test accuracy: 100%
 
 lambda = 1.97
 Forced termination after 12 iterations.
 Reducing gamma_guess to 12.1827 and restarting.
 Margin Perceptron converged after 24 iterations.
-Final margin after convergence: 6.28187
-Final weight vector: 30.8411 -73.8158 -141.731 106.906 
+Final margin after convergence: 6.31851
+Final weight vector: 24.0836 -77.8391 -127.115 101.096 
 Test accuracy: 100%
 
 lambda = 1.96
 Forced termination after 12 iterations.
 Reducing gamma_guess to 12.2449 and restarting.
-Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 6.2545
-Final weight vector: 26.273 -50.4024 -91.4068 68.8033 
+Margin Perceptron converged after 24 iterations.
+Final margin after convergence: 6.31851
+Final weight vector: 24.0836 -77.8391 -127.115 101.096 
 Test accuracy: 100%
 
 lambda = 1.95
 Forced termination after 12 iterations.
 Reducing gamma_guess to 12.3077 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 6.33541
-Final weight vector: 28.9831 -71.3703 -119.439 83.4166 
+Margin Perceptron converged after 29 iterations.
+Final margin after convergence: 6.61612
+Final weight vector: 43.7752 -91.9688 -150.401 122.254 
 Test accuracy: 100%
 
 lambda = 1.94
 Forced termination after 12 iterations.
 Reducing gamma_guess to 12.3711 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 6.46478
-Final weight vector: 31.8798 -73.5065 -113.128 93.2878 
+Margin Perceptron converged after 27 iterations.
+Final margin after convergence: 6.40845
+Final weight vector: 36.9225 -90.7347 -145.502 105.292 
 Test accuracy: 100%
 
 lambda = 1.93
 Forced termination after 12 iterations.
 Reducing gamma_guess to 12.4352 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 6.46478
-Final weight vector: 31.8798 -73.5065 -113.128 93.2878 
+Margin Perceptron converged after 25 iterations.
+Final margin after convergence: 6.52822
+Final weight vector: 37.5892 -76.6424 -134.847 107.674 
 Test accuracy: 100%
 
 lambda = 1.92
 Forced termination after 12 iterations.
 Reducing gamma_guess to 12.5 and restarting.
-Margin Perceptron converged after 22 iterations.
-Final margin after convergence: 6.69872
-Final weight vector: 31.3025 -80.7512 -125.498 99.9654 
+Margin Perceptron converged after 34 iterations.
+Final margin after convergence: 6.71505
+Final weight vector: 50.1705 -108.43 -178.82 144.414 
 Test accuracy: 100%
 
 lambda = 1.91
 Forced termination after 12 iterations.
 Reducing gamma_guess to 12.5654 and restarting.
-Margin Perceptron converged after 23 iterations.
-Final margin after convergence: 6.6375
-Final weight vector: 35.4197 -82.9661 -129.691 104.915 
+Margin Perceptron converged after 32 iterations.
+Final margin after convergence: 6.65791
+Final weight vector: 47.3138 -99.1084 -173.779 137.526 
 Test accuracy: 100%
 
 lambda = 1.9
 Forced termination after 12 iterations.
 Reducing gamma_guess to 12.6316 and restarting.
 Margin Perceptron converged after 26 iterations.
-Final margin after convergence: 6.79125
-Final weight vector: 37.2648 -93.0147 -149.37 113.958 
+Final margin after convergence: 6.82692
+Final weight vector: 36.3454 -87.922 -140.023 111.524 
 Test accuracy: 100%
 
 lambda = 1.89
 Forced termination after 12 iterations.
 Reducing gamma_guess to 12.6984 and restarting.
-Margin Perceptron converged after 37 iterations.
-Final margin after convergence: 6.73876
-Final weight vector: 58.1573 -127 -206.661 160.977 
+Forced termination after 42 iterations.
+Reducing gamma_guess to 6.71874 and restarting.
+Margin Perceptron converged after 9 iterations.
+Final margin after convergence: 3.76775
+Final weight vector: 14.7609 -22.8108 -42.0846 44.1888 
 Test accuracy: 100%
 
 lambda = 1.88
@@ -2090,18 +2092,16 @@ Reducing gamma_guess to 12.766 and restarting.
 Forced termination after 42 iterations.
 Reducing gamma_guess to 6.7904 and restarting.
 Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 3.70977
-Final weight vector: 7.41436 -41.7244 -50.6131 37.5439 
+Final margin after convergence: 5.86424
+Final weight vector: 15.5624 -25.93 -47.0137 37.7376 
 Test accuracy: 100%
 
 lambda = 1.87
 Forced termination after 12 iterations.
 Reducing gamma_guess to 12.8342 and restarting.
-Forced termination after 41 iterations.
-Reducing gamma_guess to 6.86322 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 3.70977
-Final weight vector: 7.41436 -41.7244 -50.6131 37.5439 
+Margin Perceptron converged after 28 iterations.
+Final margin after convergence: 6.98015
+Final weight vector: 39.0555 -90.348 -149.919 118.981 
 Test accuracy: 100%
 
 lambda = 1.86
@@ -2110,18 +2110,16 @@ Reducing gamma_guess to 12.9032 and restarting.
 Forced termination after 41 iterations.
 Reducing gamma_guess to 6.93722 and restarting.
 Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 4.81135
-Final weight vector: 17.3792 -26.7389 -58.7752 48.7306 
+Final margin after convergence: 4.64612
+Final weight vector: 8.25553 -36.5596 -54.269 34.8046 
 Test accuracy: 100%
 
 lambda = 1.85
 Forced termination after 12 iterations.
 Reducing gamma_guess to 12.973 and restarting.
-Forced termination after 41 iterations.
-Reducing gamma_guess to 7.01242 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 4.81135
-Final weight vector: 17.3792 -26.7389 -58.7752 48.7306 
+Margin Perceptron converged after 36 iterations.
+Final margin after convergence: 7.14558
+Final weight vector: 49.292 -117.565 -197.461 153.836 
 Test accuracy: 100%
 
 lambda = 1.84
@@ -2129,9 +2127,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 13.0435 and restarting.
 Forced termination after 40 iterations.
 Reducing gamma_guess to 7.08885 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 4.81135
-Final weight vector: 17.3792 -26.7389 -58.7752 48.7306 
+Margin Perceptron converged after 9 iterations.
+Final margin after convergence: 4.86444
+Final weight vector: 6.26149 -29.7854 -50.1464 33.4312 
 Test accuracy: 100%
 
 lambda = 1.83
@@ -2139,9 +2137,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 13.1148 and restarting.
 Forced termination after 40 iterations.
 Reducing gamma_guess to 7.16653 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 4.81135
-Final weight vector: 17.3792 -26.7389 -58.7752 48.7306 
+Margin Perceptron converged after 9 iterations.
+Final margin after convergence: 4.86444
+Final weight vector: 6.26149 -29.7854 -50.1464 33.4312 
 Test accuracy: 100%
 
 lambda = 1.82
@@ -2149,9 +2147,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 13.1868 and restarting.
 Forced termination after 39 iterations.
 Reducing gamma_guess to 7.2455 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 4.81135
-Final weight vector: 17.3792 -26.7389 -58.7752 48.7306 
+Margin Perceptron converged after 9 iterations.
+Final margin after convergence: 4.86444
+Final weight vector: 6.26149 -29.7854 -50.1464 33.4312 
 Test accuracy: 100%
 
 lambda = 1.81
@@ -2159,9 +2157,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 13.2597 and restarting.
 Forced termination after 39 iterations.
 Reducing gamma_guess to 7.32578 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 4.53473
-Final weight vector: 12.4991 -26.1458 -59.5167 49.9815 
+Margin Perceptron converged after 9 iterations.
+Final margin after convergence: 4.86444
+Final weight vector: 6.26149 -29.7854 -50.1464 33.4312 
 Test accuracy: 100%
 
 lambda = 1.8
@@ -2169,9 +2167,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 13.3333 and restarting.
 Forced termination after 38 iterations.
 Reducing gamma_guess to 7.40741 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 4.53473
-Final weight vector: 12.4991 -26.1458 -59.5167 49.9815 
+Margin Perceptron converged after 9 iterations.
+Final margin after convergence: 4.86444
+Final weight vector: 6.26149 -29.7854 -50.1464 33.4312 
 Test accuracy: 100%
 
 lambda = 1.79
@@ -2179,9 +2177,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 13.4078 and restarting.
 Forced termination after 38 iterations.
 Reducing gamma_guess to 7.4904 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 4.5774
-Final weight vector: 12.3119 -25.4168 -64.101 44.9486 
+Margin Perceptron converged after 9 iterations.
+Final margin after convergence: 4.86444
+Final weight vector: 6.26149 -29.7854 -50.1464 33.4312 
 Test accuracy: 100%
 
 lambda = 1.78
@@ -2189,9 +2187,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 13.4831 and restarting.
 Forced termination after 38 iterations.
 Reducing gamma_guess to 7.5748 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 4.70106
-Final weight vector: 12.1182 -25.5426 -63.4865 45.2312 
+Margin Perceptron converged after 9 iterations.
+Final margin after convergence: 4.86444
+Final weight vector: 6.26149 -29.7854 -50.1464 33.4312 
 Test accuracy: 100%
 
 lambda = 1.77
@@ -2199,9 +2197,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 13.5593 and restarting.
 Forced termination after 37 iterations.
 Reducing gamma_guess to 7.66063 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 4.64637
-Final weight vector: 16.5293 -27.4671 -63.4827 42.5057 
+Margin Perceptron converged after 9 iterations.
+Final margin after convergence: 4.86444
+Final weight vector: 6.26149 -29.7854 -50.1464 33.4312 
 Test accuracy: 100%
 
 lambda = 1.76
@@ -2209,9 +2207,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 13.6364 and restarting.
 Forced termination after 37 iterations.
 Reducing gamma_guess to 7.74793 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 4.64637
-Final weight vector: 16.5293 -27.4671 -63.4827 42.5057 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.75
@@ -2219,9 +2217,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 13.7143 and restarting.
 Forced termination after 36 iterations.
 Reducing gamma_guess to 7.83673 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 4.64637
-Final weight vector: 16.5293 -27.4671 -63.4827 42.5057 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.74
@@ -2229,9 +2227,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 13.7931 and restarting.
 Forced termination after 36 iterations.
 Reducing gamma_guess to 7.92707 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 4.64637
-Final weight vector: 16.5293 -27.4671 -63.4827 42.5057 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.73
@@ -2239,9 +2237,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 13.8728 and restarting.
 Forced termination after 35 iterations.
 Reducing gamma_guess to 8.01898 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 4.86484
-Final weight vector: 14.1579 -38.5615 -50.8584 37.706 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.72
@@ -2249,9 +2247,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 13.9535 and restarting.
 Forced termination after 35 iterations.
 Reducing gamma_guess to 8.11249 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 4.72609
-Final weight vector: 21.9259 -36.9329 -53.4024 48.66 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.71
@@ -2259,9 +2257,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 14.0351 and restarting.
 Forced termination after 35 iterations.
 Reducing gamma_guess to 8.20765 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 5.14431
-Final weight vector: 18.5676 -46.9367 -79.5827 48.4356 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.7
@@ -2269,9 +2267,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 14.1176 and restarting.
 Forced termination after 34 iterations.
 Reducing gamma_guess to 8.3045 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 5.45592
-Final weight vector: 7.16377 -31.1574 -53.7691 43.0128 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.69
@@ -2279,9 +2277,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 14.2012 and restarting.
 Forced termination after 34 iterations.
 Reducing gamma_guess to 8.40307 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 5.86027
-Final weight vector: 11.424 -31.8614 -49.586 44.8282 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.68
@@ -2289,9 +2287,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 14.2857 and restarting.
 Forced termination after 33 iterations.
 Reducing gamma_guess to 8.5034 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 5.86027
-Final weight vector: 11.424 -31.8614 -49.586 44.8282 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.67
@@ -2299,9 +2297,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 14.3713 and restarting.
 Forced termination after 33 iterations.
 Reducing gamma_guess to 8.60554 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 5.86027
-Final weight vector: 11.424 -31.8614 -49.586 44.8282 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.66
@@ -2309,9 +2307,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 14.4578 and restarting.
 Forced termination after 33 iterations.
 Reducing gamma_guess to 8.70954 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 5.86027
-Final weight vector: 11.424 -31.8614 -49.586 44.8282 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.65
@@ -2319,9 +2317,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 14.5455 and restarting.
 Forced termination after 32 iterations.
 Reducing gamma_guess to 8.81543 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 5.86027
-Final weight vector: 11.424 -31.8614 -49.586 44.8282 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.64
@@ -2330,8 +2328,8 @@ Reducing gamma_guess to 14.6341 and restarting.
 Forced termination after 32 iterations.
 Reducing gamma_guess to 8.92326 and restarting.
 Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 5.73411
-Final weight vector: 20.0281 -32.6271 -61.3281 46.1112 
+Final margin after convergence: 5.86854
+Final weight vector: 13.0734 -28.6856 -53.9897 45.0445 
 Test accuracy: 100%
 
 lambda = 1.63
@@ -2339,9 +2337,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 14.7239 and restarting.
 Forced termination after 31 iterations.
 Reducing gamma_guess to 9.03308 and restarting.
-Margin Perceptron converged after 16 iterations.
-Final margin after convergence: 5.73134
-Final weight vector: 22.4279 -62.7518 -86.8986 74.4657 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 5.58391
+Final weight vector: 23.1273 -65.9641 -92.663 83.8117 
 Test accuracy: 100%
 
 lambda = 1.62
@@ -2349,9 +2347,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 14.8148 and restarting.
 Forced termination after 31 iterations.
 Reducing gamma_guess to 9.14495 and restarting.
-Margin Perceptron converged after 19 iterations.
-Final margin after convergence: 5.902
-Final weight vector: 19.6791 -72.4358 -103.728 85.3747 
+Margin Perceptron converged after 14 iterations.
+Final margin after convergence: 6.35906
+Final weight vector: 14.7992 -46.7117 -76.7195 57.3275 
 Test accuracy: 100%
 
 lambda = 1.61
@@ -2359,9 +2357,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 14.9068 and restarting.
 Forced termination after 31 iterations.
 Reducing gamma_guess to 9.2589 and restarting.
-Margin Perceptron converged after 18 iterations.
-Final margin after convergence: 5.78837
-Final weight vector: 21.9074 -58.2768 -111.524 74.5238 
+Margin Perceptron converged after 14 iterations.
+Final margin after convergence: 6.35906
+Final weight vector: 14.7992 -46.7117 -76.7195 57.3275 
 Test accuracy: 100%
 
 lambda = 1.6
@@ -2369,9 +2367,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 15 and restarting.
 Forced termination after 30 iterations.
 Reducing gamma_guess to 9.375 and restarting.
-Margin Perceptron converged after 16 iterations.
-Final margin after convergence: 5.90808
-Final weight vector: 27.6321 -51.4099 -97.038 70.5146 
+Margin Perceptron converged after 14 iterations.
+Final margin after convergence: 6.35906
+Final weight vector: 14.7992 -46.7117 -76.7195 57.3275 
 Test accuracy: 100%
 
 lambda = 1.59
@@ -2379,9 +2377,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 15.0943 and restarting.
 Forced termination after 30 iterations.
 Reducing gamma_guess to 9.4933 and restarting.
-Margin Perceptron converged after 16 iterations.
-Final margin after convergence: 6.76654
-Final weight vector: 22.9879 -54.4329 -95.5949 75.5047 
+Margin Perceptron converged after 24 iterations.
+Final margin after convergence: 6.1383
+Final weight vector: 39.275 -74.1534 -128.791 95.809 
 Test accuracy: 100%
 
 lambda = 1.58
@@ -2389,9 +2387,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 15.1899 and restarting.
 Forced termination after 29 iterations.
 Reducing gamma_guess to 9.61384 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 6.18988
-Final weight vector: 23.1071 -44.2564 -80.7294 60.1178 
+Margin Perceptron converged after 23 iterations.
+Final margin after convergence: 6.10881
+Final weight vector: 40.0305 -73.4057 -119.031 96.2145 
 Test accuracy: 100%
 
 lambda = 1.57
@@ -2399,9 +2397,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 15.2866 and restarting.
 Forced termination after 29 iterations.
 Reducing gamma_guess to 9.7367 and restarting.
-Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 6.2545
-Final weight vector: 26.273 -50.4024 -91.4068 68.8033 
+Margin Perceptron converged after 24 iterations.
+Final margin after convergence: 6.31851
+Final weight vector: 24.0836 -77.8391 -127.115 101.096 
 Test accuracy: 100%
 
 lambda = 1.56
@@ -2409,9 +2407,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 15.3846 and restarting.
 Forced termination after 29 iterations.
 Reducing gamma_guess to 9.86193 and restarting.
-Margin Perceptron converged after 24 iterations.
-Final margin after convergence: 7.00794
-Final weight vector: 35.1899 -83.0011 -136.096 107.7 
+Margin Perceptron converged after 32 iterations.
+Final margin after convergence: 6.32433
+Final weight vector: 38.8465 -106.277 -173.18 123.865 
 Test accuracy: 100%
 
 lambda = 1.55
@@ -2419,9 +2417,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 15.4839 and restarting.
 Forced termination after 28 iterations.
 Reducing gamma_guess to 9.98959 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 6.46478
-Final weight vector: 31.8798 -73.5065 -113.128 93.2878 
+Margin Perceptron converged after 25 iterations.
+Final margin after convergence: 6.52822
+Final weight vector: 37.5892 -76.6424 -134.847 107.674 
 Test accuracy: 100%
 
 lambda = 1.54
@@ -2429,9 +2427,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 15.5844 and restarting.
 Forced termination after 28 iterations.
 Reducing gamma_guess to 10.1198 and restarting.
-Margin Perceptron converged after 23 iterations.
-Final margin after convergence: 6.6375
-Final weight vector: 35.4197 -82.9661 -129.691 104.915 
+Margin Perceptron converged after 32 iterations.
+Final margin after convergence: 6.65791
+Final weight vector: 47.3138 -99.1084 -173.779 137.526 
 Test accuracy: 100%
 
 lambda = 1.53
@@ -2439,9 +2437,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 15.6863 and restarting.
 Forced termination after 28 iterations.
 Reducing gamma_guess to 10.2525 and restarting.
-Margin Perceptron converged after 40 iterations.
-Final margin after convergence: 6.72599
-Final weight vector: 50.4301 -129.812 -222.845 178.314 
+Margin Perceptron converged after 43 iterations.
+Final margin after convergence: 6.70113
+Final weight vector: 60.2991 -141.469 -232.433 172.648 
 Test accuracy: 100%
 
 lambda = 1.52
@@ -2449,9 +2447,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 15.7895 and restarting.
 Forced termination after 27 iterations.
 Reducing gamma_guess to 10.3878 and restarting.
-Margin Perceptron converged after 41 iterations.
-Final margin after convergence: 6.89038
-Final weight vector: 56.3349 -140.012 -229.994 173.556 
+Margin Perceptron converged after 28 iterations.
+Final margin after convergence: 6.98015
+Final weight vector: 39.0555 -90.348 -149.919 118.981 
 Test accuracy: 100%
 
 lambda = 1.51
@@ -2459,9 +2457,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 15.894 and restarting.
 Forced termination after 27 iterations.
 Reducing gamma_guess to 10.5259 and restarting.
-Margin Perceptron converged after 44 iterations.
-Final margin after convergence: 7.11804
-Final weight vector: 60.7765 -148.224 -245.267 192.974 
+Margin Perceptron converged after 40 iterations.
+Final margin after convergence: 6.9722
+Final weight vector: 56.5814 -131.985 -215.146 167.982 
 Test accuracy: 100%
 
 lambda = 1.5
@@ -2469,11 +2467,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 16 and restarting.
 Forced termination after 26 iterations.
 Reducing gamma_guess to 10.6667 and restarting.
-Forced termination after 60 iterations.
-Reducing gamma_guess to 7.11111 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 5.14431
-Final weight vector: 18.5676 -46.9367 -79.5827 48.4356 
+Margin Perceptron converged after 46 iterations.
+Final margin after convergence: 7.17003
+Final weight vector: 61.0669 -150.002 -250.347 194.063 
 Test accuracy: 100%
 
 lambda = 1.49
@@ -2483,9 +2479,9 @@ Forced termination after 26 iterations.
 Reducing gamma_guess to 10.8103 and restarting.
 Forced termination after 59 iterations.
 Reducing gamma_guess to 7.25525 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 5.45592
-Final weight vector: 7.16377 -31.1574 -53.7691 43.0128 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.48
@@ -2495,9 +2491,9 @@ Forced termination after 26 iterations.
 Reducing gamma_guess to 10.9569 and restarting.
 Forced termination after 57 iterations.
 Reducing gamma_guess to 7.40331 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 5.86027
-Final weight vector: 11.424 -31.8614 -49.586 44.8282 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.47
@@ -2507,9 +2503,9 @@ Forced termination after 25 iterations.
 Reducing gamma_guess to 11.1065 and restarting.
 Forced termination after 56 iterations.
 Reducing gamma_guess to 7.55543 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 5.86027
-Final weight vector: 11.424 -31.8614 -49.586 44.8282 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.46
@@ -2519,9 +2515,9 @@ Forced termination after 25 iterations.
 Reducing gamma_guess to 11.2591 and restarting.
 Forced termination after 54 iterations.
 Reducing gamma_guess to 7.71175 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 5.86027
-Final weight vector: 11.424 -31.8614 -49.586 44.8282 
+Margin Perceptron converged after 7 iterations.
+Final margin after convergence: 5.34707
+Final weight vector: 13.1874 -19.6156 -36.1684 30.0627 
 Test accuracy: 100%
 
 lambda = 1.45
@@ -2532,8 +2528,8 @@ Reducing gamma_guess to 11.415 and restarting.
 Forced termination after 53 iterations.
 Reducing gamma_guess to 7.8724 and restarting.
 Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 5.73411
-Final weight vector: 20.0281 -32.6271 -61.3281 46.1112 
+Final margin after convergence: 5.86854
+Final weight vector: 13.0734 -28.6856 -53.9897 45.0445 
 Test accuracy: 100%
 
 lambda = 1.44
@@ -2543,9 +2539,9 @@ Forced termination after 24 iterations.
 Reducing gamma_guess to 11.5741 and restarting.
 Forced termination after 51 iterations.
 Reducing gamma_guess to 8.03755 and restarting.
-Margin Perceptron converged after 17 iterations.
-Final margin after convergence: 5.89668
-Final weight vector: 23.4892 -62.5916 -101.314 68.3736 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 5.58391
+Final weight vector: 23.1273 -65.9641 -92.663 83.8117 
 Test accuracy: 100%
 
 lambda = 1.43
@@ -2555,9 +2551,9 @@ Forced termination after 24 iterations.
 Reducing gamma_guess to 11.7365 and restarting.
 Forced termination after 50 iterations.
 Reducing gamma_guess to 8.20735 and restarting.
-Margin Perceptron converged after 18 iterations.
-Final margin after convergence: 5.78837
-Final weight vector: 21.9074 -58.2768 -111.524 74.5238 
+Margin Perceptron converged after 14 iterations.
+Final margin after convergence: 6.35906
+Final weight vector: 14.7992 -46.7117 -76.7195 57.3275 
 Test accuracy: 100%
 
 lambda = 1.42
@@ -2567,9 +2563,9 @@ Forced termination after 24 iterations.
 Reducing gamma_guess to 11.9024 and restarting.
 Forced termination after 48 iterations.
 Reducing gamma_guess to 8.38197 and restarting.
-Margin Perceptron converged after 16 iterations.
-Final margin after convergence: 5.90808
-Final weight vector: 27.6321 -51.4099 -97.038 70.5146 
+Margin Perceptron converged after 14 iterations.
+Final margin after convergence: 6.35906
+Final weight vector: 14.7992 -46.7117 -76.7195 57.3275 
 Test accuracy: 100%
 
 lambda = 1.41
@@ -2579,9 +2575,9 @@ Forced termination after 23 iterations.
 Reducing gamma_guess to 12.0718 and restarting.
 Forced termination after 47 iterations.
 Reducing gamma_guess to 8.56158 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 6.18988
-Final weight vector: 23.1071 -44.2564 -80.7294 60.1178 
+Margin Perceptron converged after 23 iterations.
+Final margin after convergence: 6.10881
+Final weight vector: 40.0305 -73.4057 -119.031 96.2145 
 Test accuracy: 100%
 
 lambda = 1.4
@@ -2591,9 +2587,9 @@ Forced termination after 23 iterations.
 Reducing gamma_guess to 12.2449 and restarting.
 Forced termination after 46 iterations.
 Reducing gamma_guess to 8.74636 and restarting.
-Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 6.2545
-Final weight vector: 26.273 -50.4024 -91.4068 68.8033 
+Margin Perceptron converged after 24 iterations.
+Final margin after convergence: 6.31851
+Final weight vector: 24.0836 -77.8391 -127.115 101.096 
 Test accuracy: 100%
 
 lambda = 1.39
@@ -2603,9 +2599,9 @@ Forced termination after 23 iterations.
 Reducing gamma_guess to 12.4217 and restarting.
 Forced termination after 44 iterations.
 Reducing gamma_guess to 8.93649 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 6.46478
-Final weight vector: 31.8798 -73.5065 -113.128 93.2878 
+Margin Perceptron converged after 25 iterations.
+Final margin after convergence: 6.52822
+Final weight vector: 37.5892 -76.6424 -134.847 107.674 
 Test accuracy: 100%
 
 lambda = 1.38
@@ -2615,9 +2611,9 @@ Forced termination after 22 iterations.
 Reducing gamma_guess to 12.6024 and restarting.
 Forced termination after 43 iterations.
 Reducing gamma_guess to 9.13217 and restarting.
-Margin Perceptron converged after 35 iterations.
-Final margin after convergence: 6.94194
-Final weight vector: 50.6136 -114.949 -194.659 154.747 
+Margin Perceptron converged after 24 iterations.
+Final margin after convergence: 6.95115
+Final weight vector: 33.507 -76.7695 -132.958 102.361 
 Test accuracy: 100%
 
 lambda = 1.37
@@ -2627,9 +2623,9 @@ Forced termination after 22 iterations.
 Reducing gamma_guess to 12.787 and restarting.
 Forced termination after 42 iterations.
 Reducing gamma_guess to 9.33361 and restarting.
-Margin Perceptron converged after 45 iterations.
-Final margin after convergence: 6.88384
-Final weight vector: 58.6124 -144.306 -253.041 194.618 
+Margin Perceptron converged after 50 iterations.
+Final margin after convergence: 6.82293
+Final weight vector: 68.6767 -164.332 -261.99 209.001 
 Test accuracy: 100%
 
 lambda = 1.36
@@ -2639,9 +2635,9 @@ Forced termination after 22 iterations.
 Reducing gamma_guess to 12.9758 and restarting.
 Forced termination after 41 iterations.
 Reducing gamma_guess to 9.54101 and restarting.
-Margin Perceptron converged after 72 iterations.
-Final margin after convergence: 7.09749
-Final weight vector: 96.9262 -232.406 -391.09 307.791 
+Margin Perceptron converged after 36 iterations.
+Final margin after convergence: 7.14558
+Final weight vector: 49.292 -117.565 -197.461 153.836 
 Test accuracy: 100%
 
 lambda = 1.35
@@ -2653,9 +2649,9 @@ Forced termination after 39 iterations.
 Reducing gamma_guess to 9.75461 and restarting.
 Forced termination after 72 iterations.
 Reducing gamma_guess to 7.22564 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 5.86027
-Final weight vector: 11.424 -31.8614 -49.586 44.8282 
+Margin Perceptron converged after 10 iterations.
+Final margin after convergence: 5.4151
+Final weight vector: 14.5026 -35.4502 -49.1285 45.7524 
 Test accuracy: 100%
 
 lambda = 1.34
@@ -2667,9 +2663,9 @@ Forced termination after 38 iterations.
 Reducing gamma_guess to 9.97463 and restarting.
 Forced termination after 69 iterations.
 Reducing gamma_guess to 7.44375 and restarting.
-Margin Perceptron converged after 16 iterations.
-Final margin after convergence: 5.73134
-Final weight vector: 22.4279 -62.7518 -86.8986 74.4657 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 5.58391
+Final weight vector: 23.1273 -65.9641 -92.663 83.8117 
 Test accuracy: 100%
 
 lambda = 1.33
@@ -2681,9 +2677,9 @@ Forced termination after 37 iterations.
 Reducing gamma_guess to 10.2013 and restarting.
 Forced termination after 66 iterations.
 Reducing gamma_guess to 7.67016 and restarting.
-Margin Perceptron converged after 18 iterations.
-Final margin after convergence: 5.78837
-Final weight vector: 21.9074 -58.2768 -111.524 74.5238 
+Margin Perceptron converged after 14 iterations.
+Final margin after convergence: 6.35906
+Final weight vector: 14.7992 -46.7117 -76.7195 57.3275 
 Test accuracy: 100%
 
 lambda = 1.32
@@ -2695,9 +2691,9 @@ Forced termination after 36 iterations.
 Reducing gamma_guess to 10.4349 and restarting.
 Forced termination after 63 iterations.
 Reducing gamma_guess to 7.90525 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 6.18988
-Final weight vector: 23.1071 -44.2564 -80.7294 60.1178 
+Margin Perceptron converged after 24 iterations.
+Final margin after convergence: 6.19826
+Final weight vector: 23.2155 -80.8285 -127.021 99.4951 
 Test accuracy: 100%
 
 lambda = 1.31
@@ -2709,9 +2705,9 @@ Forced termination after 35 iterations.
 Reducing gamma_guess to 10.6757 and restarting.
 Forced termination after 60 iterations.
 Reducing gamma_guess to 8.14941 and restarting.
-Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 6.2545
-Final weight vector: 26.273 -50.4024 -91.4068 68.8033 
+Margin Perceptron converged after 24 iterations.
+Final margin after convergence: 6.31851
+Final weight vector: 24.0836 -77.8391 -127.115 101.096 
 Test accuracy: 100%
 
 lambda = 1.3
@@ -2723,9 +2719,9 @@ Forced termination after 34 iterations.
 Reducing gamma_guess to 10.924 and restarting.
 Forced termination after 57 iterations.
 Reducing gamma_guess to 8.40307 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 6.46478
-Final weight vector: 31.8798 -73.5065 -113.128 93.2878 
+Margin Perceptron converged after 25 iterations.
+Final margin after convergence: 6.52822
+Final weight vector: 37.5892 -76.6424 -134.847 107.674 
 Test accuracy: 100%
 
 lambda = 1.29
@@ -2737,9 +2733,9 @@ Forced termination after 33 iterations.
 Reducing gamma_guess to 11.18 and restarting.
 Forced termination after 55 iterations.
 Reducing gamma_guess to 8.66667 and restarting.
-Margin Perceptron converged after 37 iterations.
-Final margin after convergence: 6.73876
-Final weight vector: 58.1573 -127 -206.661 160.977 
+Margin Perceptron converged after 45 iterations.
+Final margin after convergence: 6.88011
+Final weight vector: 60.9143 -142.397 -237.725 191.573 
 Test accuracy: 100%
 
 lambda = 1.28
@@ -2751,9 +2747,9 @@ Forced termination after 32 iterations.
 Reducing gamma_guess to 11.4441 and restarting.
 Forced termination after 52 iterations.
 Reducing gamma_guess to 8.9407 and restarting.
-Margin Perceptron converged after 42 iterations.
-Final margin after convergence: 7.00029
-Final weight vector: 62.0643 -141.674 -234.659 185.369 
+Margin Perceptron converged after 79 iterations.
+Final margin after convergence: 7.01077
+Final weight vector: 97.4313 -252.337 -420.183 322.551 
 Test accuracy: 100%
 
 lambda = 1.27
@@ -2767,9 +2763,9 @@ Forced termination after 50 iterations.
 Reducing gamma_guess to 9.22564 and restarting.
 Forced termination after 81 iterations.
 Reducing gamma_guess to 7.26428 and restarting.
-Margin Perceptron converged after 19 iterations.
-Final margin after convergence: 5.99336
-Final weight vector: 27.1328 -69.2946 -101.931 90.1618 
+Margin Perceptron converged after 14 iterations.
+Final margin after convergence: 6.35906
+Final weight vector: 14.7992 -46.7117 -76.7195 57.3275 
 Test accuracy: 100%
 
 lambda = 1.26
@@ -2783,9 +2779,9 @@ Forced termination after 48 iterations.
 Reducing gamma_guess to 9.52202 and restarting.
 Forced termination after 76 iterations.
 Reducing gamma_guess to 7.55716 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 6.18988
-Final weight vector: 23.1071 -44.2564 -80.7294 60.1178 
+Margin Perceptron converged after 25 iterations.
+Final margin after convergence: 6.14859
+Final weight vector: 29.6308 -84.0661 -135.792 95.634 
 Test accuracy: 100%
 
 lambda = 1.25
@@ -2799,9 +2795,9 @@ Forced termination after 45 iterations.
 Reducing gamma_guess to 9.8304 and restarting.
 Forced termination after 71 iterations.
 Reducing gamma_guess to 7.86432 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 6.33541
-Final weight vector: 28.9831 -71.3703 -119.439 83.4166 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 6.31738
+Final weight vector: 24.8428 -56.8323 -100.163 83.8713 
 Test accuracy: 100%
 
 lambda = 1.24
@@ -2815,9 +2811,9 @@ Forced termination after 43 iterations.
 Reducing gamma_guess to 10.1514 and restarting.
 Forced termination after 67 iterations.
 Reducing gamma_guess to 8.18659 and restarting.
-Margin Perceptron converged after 23 iterations.
-Final margin after convergence: 6.6375
-Final weight vector: 35.4197 -82.9661 -129.691 104.915 
+Margin Perceptron converged after 34 iterations.
+Final margin after convergence: 6.85623
+Final weight vector: 49.1063 -108.412 -182.877 145.056 
 Test accuracy: 100%
 
 lambda = 1.23
@@ -2831,9 +2827,9 @@ Forced termination after 41 iterations.
 Reducing gamma_guess to 10.4855 and restarting.
 Forced termination after 62 iterations.
 Reducing gamma_guess to 8.52483 and restarting.
-Margin Perceptron converged after 46 iterations.
-Final margin after convergence: 6.95361
-Final weight vector: 58.1293 -154.267 -254.913 200.323 
+Margin Perceptron converged after 65 iterations.
+Final margin after convergence: 6.96134
+Final weight vector: 80.3306 -207.924 -347.752 264.734 
 Test accuracy: 100%
 
 lambda = 1.22
@@ -2850,8 +2846,8 @@ Reducing gamma_guess to 8.87998 and restarting.
 Forced termination after 87 iterations.
 Reducing gamma_guess to 7.27867 and restarting.
 Margin Perceptron converged after 16 iterations.
-Final margin after convergence: 6.76654
-Final weight vector: 22.9879 -54.4329 -95.5949 75.5047 
+Final margin after convergence: 6.14119
+Final weight vector: 19.5677 -56.6718 -85.5641 63.7512 
 Test accuracy: 100%
 
 lambda = 1.21
@@ -2867,9 +2863,9 @@ Forced termination after 55 iterations.
 Reducing gamma_guess to 9.25304 and restarting.
 Forced termination after 80 iterations.
 Reducing gamma_guess to 7.64714 and restarting.
-Margin Perceptron converged after 24 iterations.
-Final margin after convergence: 7.00794
-Final weight vector: 35.1899 -83.0011 -136.096 107.7 
+Margin Perceptron converged after 32 iterations.
+Final margin after convergence: 6.32433
+Final weight vector: 38.8465 -106.277 -173.18 123.865 
 Test accuracy: 100%
 
 lambda = 1.2
@@ -2885,9 +2881,9 @@ Forced termination after 51 iterations.
 Reducing gamma_guess to 9.64506 and restarting.
 Forced termination after 74 iterations.
 Reducing gamma_guess to 8.03755 and restarting.
-Margin Perceptron converged after 40 iterations.
-Final margin after convergence: 6.72599
-Final weight vector: 50.4301 -129.812 -222.845 178.314 
+Margin Perceptron converged after 43 iterations.
+Final margin after convergence: 6.70113
+Final weight vector: 60.2991 -141.469 -232.433 172.648 
 Test accuracy: 100%
 
 lambda = 1.19
@@ -2903,9 +2899,11 @@ Forced termination after 48 iterations.
 Reducing gamma_guess to 10.0572 and restarting.
 Forced termination after 68 iterations.
 Reducing gamma_guess to 8.45142 and restarting.
-Margin Perceptron converged after 45 iterations.
-Final margin after convergence: 7.11021
-Final weight vector: 60.7988 -151.231 -254.208 195.885 
+Forced termination after 96 iterations.
+Reducing gamma_guess to 7.10203 and restarting.
+Margin Perceptron converged after 24 iterations.
+Final margin after convergence: 6.1383
+Final weight vector: 39.275 -74.1534 -128.791 95.809 
 Test accuracy: 100%
 
 lambda = 1.18
@@ -2923,9 +2921,9 @@ Forced termination after 62 iterations.
 Reducing gamma_guess to 8.89036 and restarting.
 Forced termination after 87 iterations.
 Reducing gamma_guess to 7.5342 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 6.46478
-Final weight vector: 31.8798 -73.5065 -113.128 93.2878 
+Margin Perceptron converged after 25 iterations.
+Final margin after convergence: 6.52822
+Final weight vector: 37.5892 -76.6424 -134.847 107.674 
 Test accuracy: 100%
 
 lambda = 1.17
@@ -2943,9 +2941,9 @@ Forced termination after 57 iterations.
 Reducing gamma_guess to 9.35613 and restarting.
 Forced termination after 78 iterations.
 Reducing gamma_guess to 7.99669 and restarting.
-Margin Perceptron converged after 41 iterations.
-Final margin after convergence: 6.89038
-Final weight vector: 56.3349 -140.012 -229.994 173.556 
+Margin Perceptron converged after 28 iterations.
+Final margin after convergence: 6.98015
+Final weight vector: 39.0555 -90.348 -149.919 118.981 
 Test accuracy: 100%
 
 lambda = 1.16
@@ -2965,9 +2963,9 @@ Forced termination after 71 iterations.
 Reducing gamma_guess to 8.49191 and restarting.
 Forced termination after 95 iterations.
 Reducing gamma_guess to 7.32061 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 6.33541
-Final weight vector: 28.9831 -71.3703 -119.439 83.4166 
+Margin Perceptron converged after 29 iterations.
+Final margin after convergence: 6.61612
+Final weight vector: 43.7752 -91.9688 -150.401 122.254 
 Test accuracy: 100%
 
 lambda = 1.15
@@ -2987,9 +2985,9 @@ Forced termination after 64 iterations.
 Reducing gamma_guess to 9.02249 and restarting.
 Forced termination after 84 iterations.
 Reducing gamma_guess to 7.84564 and restarting.
-Margin Perceptron converged after 49 iterations.
-Final margin after convergence: 6.83327
-Final weight vector: 61.9105 -159.993 -274.777 206.173 
+Margin Perceptron converged after 28 iterations.
+Final margin after convergence: 6.98015
+Final weight vector: 39.0555 -90.348 -149.919 118.981 
 Test accuracy: 100%
 
 lambda = 1.14
@@ -3011,9 +3009,9 @@ Forced termination after 75 iterations.
 Reducing gamma_guess to 8.41342 and restarting.
 Forced termination after 97 iterations.
 Reducing gamma_guess to 7.38019 and restarting.
-Margin Perceptron converged after 22 iterations.
-Final margin after convergence: 6.69872
-Final weight vector: 31.3025 -80.7512 -125.498 99.9654 
+Margin Perceptron converged after 25 iterations.
+Final margin after convergence: 6.52822
+Final weight vector: 37.5892 -76.6424 -134.847 107.674 
 Test accuracy: 100%
 
 lambda = 1.13
@@ -3035,9 +3033,9 @@ Forced termination after 66 iterations.
 Reducing gamma_guess to 9.02784 and restarting.
 Forced termination after 84 iterations.
 Reducing gamma_guess to 7.98924 and restarting.
-Margin Perceptron converged after 73 iterations.
-Final margin after convergence: 7.1469
-Final weight vector: 96.602 -235.239 -396.911 309.32 
+Margin Perceptron converged after 49 iterations.
+Final margin after convergence: 7.07367
+Final weight vector: 68.0549 -160.427 -265.25 207.166 
 Test accuracy: 100%
 
 lambda = 1.12
@@ -3061,9 +3059,9 @@ Forced termination after 73 iterations.
 Reducing gamma_guess to 8.65464 and restarting.
 Forced termination after 92 iterations.
 Reducing gamma_guess to 7.72736 and restarting.
-Margin Perceptron converged after 32 iterations.
-Final margin after convergence: 6.93145
-Final weight vector: 43.4113 -107.15 -182.719 145.027 
+Margin Perceptron converged after 64 iterations.
+Final margin after convergence: 6.91629
+Final weight vector: 86.3468 -206.769 -333.384 264.347 
 Test accuracy: 100%
 
 lambda = 1.11
@@ -3089,9 +3087,9 @@ Forced termination after 78 iterations.
 Reducing gamma_guess to 8.45243 and restarting.
 Forced termination after 96 iterations.
 Reducing gamma_guess to 7.6148 and restarting.
-Margin Perceptron converged after 41 iterations.
-Final margin after convergence: 6.89038
-Final weight vector: 56.3349 -140.012 -229.994 173.556 
+Margin Perceptron converged after 28 iterations.
+Final margin after convergence: 6.98015
+Final weight vector: 39.0555 -90.348 -149.919 118.981 
 Test accuracy: 100%
 
 lambda = 1.1
@@ -3119,9 +3117,9 @@ Forced termination after 80 iterations.
 Reducing gamma_guess to 8.41185 and restarting.
 Forced termination after 97 iterations.
 Reducing gamma_guess to 7.64714 and restarting.
-Margin Perceptron converged after 69 iterations.
-Final margin after convergence: 6.96833
-Final weight vector: 88.9922 -230.116 -370.493 291.742 
+Margin Perceptron converged after 68 iterations.
+Final margin after convergence: 7.04965
+Final weight vector: 91.903 -214.397 -360.328 283.073 
 Test accuracy: 100%
 
 lambda = 1.09
@@ -3153,9 +3151,9 @@ Forced termination after 94 iterations.
 Reducing gamma_guess to 7.82829 and restarting.
 Forced termination after 112 iterations.
 Reducing gamma_guess to 7.18192 and restarting.
-Margin Perceptron converged after 23 iterations.
-Final margin after convergence: 6.6375
-Final weight vector: 35.4197 -82.9661 -129.691 104.915 
+Margin Perceptron converged after 34 iterations.
+Final margin after convergence: 6.85623
+Final weight vector: 49.1063 -108.412 -182.877 145.056 
 Test accuracy: 100%
 
 lambda = 1.08
@@ -3189,9 +3187,9 @@ Forced termination after 88 iterations.
 Reducing gamma_guess to 8.17106 and restarting.
 Forced termination after 103 iterations.
 Reducing gamma_guess to 7.5658 and restarting.
-Margin Perceptron converged after 96 iterations.
-Final margin after convergence: 7.03165
-Final weight vector: 126.78 -309.943 -509.379 406.128 
+Margin Perceptron converged after 56 iterations.
+Final margin after convergence: 7.0172
+Final weight vector: 77.0659 -175.908 -300.623 234.538 
 Test accuracy: 100%
 
 lambda = 1.07
@@ -3229,9 +3227,11 @@ Forced termination after 91 iterations.
 Reducing gamma_guess to 8.12963 and restarting.
 Forced termination after 104 iterations.
 Reducing gamma_guess to 7.59779 and restarting.
-Margin Perceptron converged after 45 iterations.
-Final margin after convergence: 7.11021
-Final weight vector: 60.7988 -151.231 -254.208 195.885 
+Forced termination after 119 iterations.
+Reducing gamma_guess to 7.10073 and restarting.
+Margin Perceptron converged after 24 iterations.
+Final margin after convergence: 6.95115
+Final weight vector: 33.507 -76.7695 -132.958 102.361 
 Test accuracy: 100%
 
 lambda = 1.06
@@ -3275,9 +3275,9 @@ Forced termination after 97 iterations.
 Reducing gamma_guess to 7.93231 and restarting.
 Forced termination after 109 iterations.
 Reducing gamma_guess to 7.48331 and restarting.
-Margin Perceptron converged after 94 iterations.
-Final margin after convergence: 7.13469
-Final weight vector: 122.406 -299.486 -505.616 393.723 
+Margin Perceptron converged after 46 iterations.
+Final margin after convergence: 7.10566
+Final weight vector: 61.7054 -147.741 -250.374 195.852 
 Test accuracy: 100%
 
 lambda = 1.05
@@ -3329,9 +3329,9 @@ Forced termination after 102 iterations.
 Reducing gamma_guess to 7.81371 and restarting.
 Forced termination after 113 iterations.
 Reducing gamma_guess to 7.44163 and restarting.
-Margin Perceptron converged after 83 iterations.
-Final margin after convergence: 7.10895
-Final weight vector: 112.765 -267.366 -448.426 353.263 
+Margin Perceptron converged after 99 iterations.
+Final margin after convergence: 7.13526
+Final weight vector: 128.699 -312.833 -526.097 406.77 
 Test accuracy: 100%
 
 lambda = 1.04
@@ -3395,11 +3395,9 @@ Forced termination after 107 iterations.
 Reducing gamma_guess to 7.69563 and restarting.
 Forced termination after 116 iterations.
 Reducing gamma_guess to 7.39965 and restarting.
-Forced termination after 126 iterations.
-Reducing gamma_guess to 7.11505 and restarting.
-Margin Perceptron converged after 41 iterations.
-Final margin after convergence: 6.89038
-Final weight vector: 56.3349 -140.012 -229.994 173.556 
+Margin Perceptron converged after 124 iterations.
+Final margin after convergence: 7.14205
+Final weight vector: 160.896 -392.831 -653.908 506.55 
 Test accuracy: 100%
 
 lambda = 1.03
@@ -3485,9 +3483,9 @@ Forced termination after 120 iterations.
 Reducing gamma_guess to 7.35736 and restarting.
 Forced termination after 127 iterations.
 Reducing gamma_guess to 7.14307 and restarting.
-Margin Perceptron converged after 51 iterations.
-Final margin after convergence: 6.98776
-Final weight vector: 64.6189 -171.061 -280.537 219.452 
+Margin Perceptron converged after 59 iterations.
+Final margin after convergence: 6.99289
+Final weight vector: 81.0673 -186.536 -312.277 246.5 
 Test accuracy: 100%
 
 lambda = 1.02
@@ -3613,98 +3611,98 @@ Forced termination after 124 iterations.
 Reducing gamma_guess to 7.31477 and restarting.
 Forced termination after 129 iterations.
 Reducing gamma_guess to 7.17135 and restarting.
-Margin Perceptron converged after 73 iterations.
-Final margin after convergence: 7.06561
-Final weight vector: 97.8504 -237.396 -400.228 306.936 
+Margin Perceptron converged after 36 iterations.
+Final margin after convergence: 7.14558
+Final weight vector: 49.292 -117.565 -197.461 153.836 
 Test accuracy: 100%
 
 Dataset loaded: 10000 samples, dimension: 8, R: 12
 lambda = 2
 Forced termination after 12 iterations.
 Reducing gamma_guess to 6 and restarting.
-Margin Perceptron converged after 17 iterations.
-Final margin after convergence: 3.00802
-Final weight vector: -11.9191 -17.5091 -32.2954 -8.83597 37.402 24.012 34.376 -9.18278 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.10847
+Final weight vector: -12.0324 -19.9802 -32.7718 -6.49195 40.9021 29.8028 40.0847 -8.23148 
 Test accuracy: 100%
 
 lambda = 1.99
 Forced termination after 12 iterations.
 Reducing gamma_guess to 6.03015 and restarting.
-Margin Perceptron converged after 24 iterations.
-Final margin after convergence: 3.04366
-Final weight vector: -14.8047 -22.1537 -39.448 -7.61526 57.2153 34.667 46.7397 -10.0597 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.10847
+Final weight vector: -12.0324 -19.9802 -32.7718 -6.49195 40.9021 29.8028 40.0847 -8.23148 
 Test accuracy: 100%
 
 lambda = 1.98
 Forced termination after 12 iterations.
 Reducing gamma_guess to 6.06061 and restarting.
-Margin Perceptron converged after 23 iterations.
-Final margin after convergence: 3.06525
-Final weight vector: -18.1474 -22.9165 -39.9678 -10.0438 50.3049 30.9699 46.5719 -14.4099 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.10847
+Final weight vector: -12.0324 -19.9802 -32.7718 -6.49195 40.9021 29.8028 40.0847 -8.23148 
 Test accuracy: 100%
 
 lambda = 1.97
 Forced termination after 12 iterations.
 Reducing gamma_guess to 6.09137 and restarting.
-Margin Perceptron converged after 27 iterations.
-Final margin after convergence: 3.11738
-Final weight vector: -19.1884 -27.3266 -45.6097 -7.40436 58.8894 39.5766 54.0564 -10.4632 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.10847
+Final weight vector: -12.0324 -19.9802 -32.7718 -6.49195 40.9021 29.8028 40.0847 -8.23148 
 Test accuracy: 100%
 
 lambda = 1.96
 Forced termination after 12 iterations.
 Reducing gamma_guess to 6.12245 and restarting.
-Margin Perceptron converged after 25 iterations.
-Final margin after convergence: 3.13332
-Final weight vector: -15.2047 -23.9141 -40.1839 -9.99072 55.7867 33.5928 53.7852 -10.6958 
+Margin Perceptron converged after 24 iterations.
+Final margin after convergence: 3.13079
+Final weight vector: -16.3444 -20.7677 -38.9336 -13.9735 53.9009 36.0431 47.6115 -14.6462 
 Test accuracy: 100%
 
 lambda = 1.95
 Forced termination after 12 iterations.
 Reducing gamma_guess to 6.15385 and restarting.
-Margin Perceptron converged after 23 iterations.
-Final margin after convergence: 3.16887
-Final weight vector: -15.2254 -17.5141 -40.5569 -12.6382 51.5682 35.3156 48.0744 -12.5999 
+Margin Perceptron converged after 29 iterations.
+Final margin after convergence: 3.20365
+Final weight vector: -18.9085 -25.832 -43.2381 -12.2851 64.3564 42.8559 59.383 -16.8778 
 Test accuracy: 100%
 
 lambda = 1.94
 Forced termination after 12 iterations.
 Reducing gamma_guess to 6.18557 and restarting.
-Margin Perceptron converged after 33 iterations.
-Final margin after convergence: 3.29507
-Final weight vector: -23.941 -32.3333 -52.5564 -11.9621 72.6466 46.3382 68.9099 -15.5538 
+Margin Perceptron converged after 23 iterations.
+Final margin after convergence: 3.2349
+Final weight vector: -12.849 -21.2256 -38.8641 -8.79504 52.8834 36.2157 45.1521 -12.6926 
 Test accuracy: 100%
 
 lambda = 1.93
 Forced termination after 12 iterations.
 Reducing gamma_guess to 6.21762 and restarting.
-Margin Perceptron converged after 30 iterations.
-Final margin after convergence: 3.24378
-Final weight vector: -19.3671 -24.1401 -51.1018 -13.2282 69.14 43.1915 59.5073 -15.0806 
+Margin Perceptron converged after 37 iterations.
+Final margin after convergence: 3.42472
+Final weight vector: -21.9337 -33.5231 -62.2854 -16.927 80.2017 52.294 73.356 -19.1402 
 Test accuracy: 100%
 
 lambda = 1.92
 Forced termination after 12 iterations.
 Reducing gamma_guess to 6.25 and restarting.
-Margin Perceptron converged after 36 iterations.
-Final margin after convergence: 3.26479
-Final weight vector: -20.9575 -30.3195 -61.335 -18.3595 79.9222 51.6509 70.6091 -20.9416 
+Margin Perceptron converged after 26 iterations.
+Final margin after convergence: 3.25677
+Final weight vector: -17.4427 -24.6078 -40.6561 -10.428 57.7539 41.0468 54.9182 -13.1764 
 Test accuracy: 100%
 
 lambda = 1.91
 Forced termination after 12 iterations.
 Reducing gamma_guess to 6.28272 and restarting.
-Margin Perceptron converged after 27 iterations.
-Final margin after convergence: 3.29996
-Final weight vector: -20.6021 -24.6553 -43.6659 -12.755 62.3452 42.8987 56.3281 -15.0662 
+Margin Perceptron converged after 37 iterations.
+Final margin after convergence: 3.31846
+Final weight vector: -21.6315 -34.5847 -60.2154 -13.2154 82.5152 53.1236 76.2217 -17.0785 
 Test accuracy: 100%
 
 lambda = 1.9
 Forced termination after 12 iterations.
 Reducing gamma_guess to 6.31579 and restarting.
-Margin Perceptron converged after 40 iterations.
-Final margin after convergence: 3.38105
-Final weight vector: -27.1832 -34.654 -64.4686 -17.0104 89.4575 57.0677 82.4824 -22.5493 
+Margin Perceptron converged after 42 iterations.
+Final margin after convergence: 3.4176
+Final weight vector: -25.9641 -37.7139 -69.6972 -18.3377 88.7558 62.8142 84.0429 -20.332 
 Test accuracy: 100%
 
 lambda = 1.89
@@ -3712,9 +3710,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 6.34921 and restarting.
 Forced termination after 42 iterations.
 Reducing gamma_guess to 3.35937 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 2.37077
-Final weight vector: -7.23253 -6.56662 -12.4924 -5.48839 18.6345 9.61399 16.9435 -6.32781 
+Margin Perceptron converged after 10 iterations.
+Final margin after convergence: 1.97644
+Final weight vector: -4.77118 -9.73768 -17.0925 -4.57556 15.1675 14.4291 20.8323 -3.58402 
 Test accuracy: 100%
 
 lambda = 1.88
@@ -3722,9 +3720,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 6.38298 and restarting.
 Forced termination after 42 iterations.
 Reducing gamma_guess to 3.3952 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 1.80598
-Final weight vector: -5.26754 -6.68023 -12.9928 -3.32189 19.9777 18.1951 17.6177 -0.891321 
+Margin Perceptron converged after 10 iterations.
+Final margin after convergence: 2.29771
+Final weight vector: -8.32369 -9.23092 -15.3009 -4.6158 17.294 12.6325 21.0428 -2.94611 
 Test accuracy: 100%
 
 lambda = 1.87
@@ -3733,8 +3731,8 @@ Reducing gamma_guess to 6.41711 and restarting.
 Forced termination after 41 iterations.
 Reducing gamma_guess to 3.43161 and restarting.
 Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 2.0556
-Final weight vector: -3.7123 -7.67024 -15.6861 -4.56124 22.2766 10.6091 24.1682 -5.51369 
+Final margin after convergence: 2.29771
+Final weight vector: -8.32369 -9.23092 -15.3009 -4.6158 17.294 12.6325 21.0428 -2.94611 
 Test accuracy: 100%
 
 lambda = 1.86
@@ -3743,8 +3741,8 @@ Reducing gamma_guess to 6.45161 and restarting.
 Forced termination after 41 iterations.
 Reducing gamma_guess to 3.46861 and restarting.
 Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 2.0556
-Final weight vector: -3.7123 -7.67024 -15.6861 -4.56124 22.2766 10.6091 24.1682 -5.51369 
+Final margin after convergence: 2.29771
+Final weight vector: -8.32369 -9.23092 -15.3009 -4.6158 17.294 12.6325 21.0428 -2.94611 
 Test accuracy: 100%
 
 lambda = 1.85
@@ -3753,8 +3751,8 @@ Reducing gamma_guess to 6.48649 and restarting.
 Forced termination after 41 iterations.
 Reducing gamma_guess to 3.50621 and restarting.
 Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 2.46291
-Final weight vector: -8.48831 -10.1858 -16.1657 -5.56326 21.1892 14.3605 18.5809 -9.13182 
+Final margin after convergence: 2.29771
+Final weight vector: -8.32369 -9.23092 -15.3009 -4.6158 17.294 12.6325 21.0428 -2.94611 
 Test accuracy: 100%
 
 lambda = 1.84
@@ -3762,9 +3760,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 6.52174 and restarting.
 Forced termination after 40 iterations.
 Reducing gamma_guess to 3.54442 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 2.46291
-Final weight vector: -8.48831 -10.1858 -16.1657 -5.56326 21.1892 14.3605 18.5809 -9.13182 
+Margin Perceptron converged after 12 iterations.
+Final margin after convergence: 2.34241
+Final weight vector: -8.90174 -11.1349 -20.1781 -7.9971 27.4829 12.4256 22.9318 -7.59247 
 Test accuracy: 100%
 
 lambda = 1.83
@@ -3772,9 +3770,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 6.55738 and restarting.
 Forced termination after 40 iterations.
 Reducing gamma_guess to 3.58327 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.08164
-Final weight vector: -7.95198 -9.96562 -11.4561 -2.31685 22.0882 15.3252 15.9222 -5.41149 
+Margin Perceptron converged after 12 iterations.
+Final margin after convergence: 2.34241
+Final weight vector: -8.90174 -11.1349 -20.1781 -7.9971 27.4829 12.4256 22.9318 -7.59247 
 Test accuracy: 100%
 
 lambda = 1.82
@@ -3782,9 +3780,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 6.59341 and restarting.
 Forced termination after 39 iterations.
 Reducing gamma_guess to 3.62275 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.08164
-Final weight vector: -7.95198 -9.96562 -11.4561 -2.31685 22.0882 15.3252 15.9222 -5.41149 
+Margin Perceptron converged after 12 iterations.
+Final margin after convergence: 2.05653
+Final weight vector: -4.83514 -12.001 -21.8811 -1.74435 26.5007 13.8694 22.8328 -10.2468 
 Test accuracy: 100%
 
 lambda = 1.81
@@ -3792,9 +3790,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 6.62983 and restarting.
 Forced termination after 39 iterations.
 Reducing gamma_guess to 3.66289 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.08164
-Final weight vector: -7.95198 -9.96562 -11.4561 -2.31685 22.0882 15.3252 15.9222 -5.41149 
+Margin Perceptron converged after 12 iterations.
+Final margin after convergence: 2.13352
+Final weight vector: -9.24408 -11.259 -15.3071 -8.27195 28.0975 13.9348 25.4175 -3.86293 
 Test accuracy: 100%
 
 lambda = 1.8
@@ -3802,9 +3800,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 6.66667 and restarting.
 Forced termination after 38 iterations.
 Reducing gamma_guess to 3.7037 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.08164
-Final weight vector: -7.95198 -9.96562 -11.4561 -2.31685 22.0882 15.3252 15.9222 -5.41149 
+Margin Perceptron converged after 12 iterations.
+Final margin after convergence: 2.22986
+Final weight vector: -4.81111 -14.4321 -14.919 -6.14579 26.6799 17.9012 23.3185 -8.58143 
 Test accuracy: 100%
 
 lambda = 1.79
@@ -3812,9 +3810,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 6.70391 and restarting.
 Forced termination after 38 iterations.
 Reducing gamma_guess to 3.7452 and restarting.
-Margin Perceptron converged after 8 iterations.
-Final margin after convergence: 2.15775
-Final weight vector: -3.97482 -8.60892 -11.8765 -7.48306 19.2268 10.4572 18.4177 -3.34542 
+Margin Perceptron converged after 11 iterations.
+Final margin after convergence: 2.73357
+Final weight vector: -4.46447 -9.4053 -16.1521 -5.22492 26.2606 14.874 22.7675 -5.47329 
 Test accuracy: 100%
 
 lambda = 1.78
@@ -3822,9 +3820,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 6.74157 and restarting.
 Forced termination after 38 iterations.
 Reducing gamma_guess to 3.7874 and restarting.
-Margin Perceptron converged after 10 iterations.
-Final margin after convergence: 2.204
-Final weight vector: -8.06775 -6.9442 -17.7436 -8.64478 21.4806 18.0072 19.352 -3.43187 
+Margin Perceptron converged after 11 iterations.
+Final margin after convergence: 2.73357
+Final weight vector: -4.46447 -9.4053 -16.1521 -5.22492 26.2606 14.874 22.7675 -5.47329 
 Test accuracy: 100%
 
 lambda = 1.77
@@ -3832,9 +3830,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 6.77966 and restarting.
 Forced termination after 37 iterations.
 Reducing gamma_guess to 3.83032 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.28255
-Final weight vector: -8.53259 -5.90054 -18.1283 -4.63469 20.8226 12.9251 18.4043 -2.33896 
+Margin Perceptron converged after 11 iterations.
+Final margin after convergence: 2.73357
+Final weight vector: -4.46447 -9.4053 -16.1521 -5.22492 26.2606 14.874 22.7675 -5.47329 
 Test accuracy: 100%
 
 lambda = 1.76
@@ -3842,9 +3840,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 6.81818 and restarting.
 Forced termination after 37 iterations.
 Reducing gamma_guess to 3.87397 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.28255
-Final weight vector: -8.53259 -5.90054 -18.1283 -4.63469 20.8226 12.9251 18.4043 -2.33896 
+Margin Perceptron converged after 15 iterations.
+Final margin after convergence: 2.76862
+Final weight vector: -7.25968 -13.368 -26.3432 -6.52179 34.3652 18.3257 27.6139 -5.65368 
 Test accuracy: 100%
 
 lambda = 1.75
@@ -3852,9 +3850,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 6.85714 and restarting.
 Forced termination after 36 iterations.
 Reducing gamma_guess to 3.91837 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.28255
-Final weight vector: -8.53259 -5.90054 -18.1283 -4.63469 20.8226 12.9251 18.4043 -2.33896 
+Margin Perceptron converged after 13 iterations.
+Final margin after convergence: 2.8441
+Final weight vector: -10.1557 -12.7828 -17.9775 -7.57663 27.9842 19.7065 25.2617 -7.52108 
 Test accuracy: 100%
 
 lambda = 1.74
@@ -3862,9 +3860,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 6.89655 and restarting.
 Forced termination after 36 iterations.
 Reducing gamma_guess to 3.96354 and restarting.
-Margin Perceptron converged after 9 iterations.
-Final margin after convergence: 2.28255
-Final weight vector: -8.53259 -5.90054 -18.1283 -4.63469 20.8226 12.9251 18.4043 -2.33896 
+Margin Perceptron converged after 13 iterations.
+Final margin after convergence: 2.8441
+Final weight vector: -10.1557 -12.7828 -17.9775 -7.57663 27.9842 19.7065 25.2617 -7.52108 
 Test accuracy: 100%
 
 lambda = 1.73
@@ -3873,8 +3871,8 @@ Reducing gamma_guess to 6.93642 and restarting.
 Forced termination after 35 iterations.
 Reducing gamma_guess to 4.00949 and restarting.
 Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 2.44041
-Final weight vector: -11.1017 -10.3502 -22.9352 -5.14535 32.2597 18.9272 22.7818 -4.04915 
+Final margin after convergence: 2.8441
+Final weight vector: -10.1557 -12.7828 -17.9775 -7.57663 27.9842 19.7065 25.2617 -7.52108 
 Test accuracy: 100%
 
 lambda = 1.72
@@ -3882,9 +3880,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 6.97674 and restarting.
 Forced termination after 35 iterations.
 Reducing gamma_guess to 4.05625 and restarting.
-Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 2.6971
-Final weight vector: -7.89361 -14.141 -28.1943 -10.7207 31.0712 20.2814 30.6499 -7.39959 
+Margin Perceptron converged after 13 iterations.
+Final margin after convergence: 2.8441
+Final weight vector: -10.1557 -12.7828 -17.9775 -7.57663 27.9842 19.7065 25.2617 -7.52108 
 Test accuracy: 100%
 
 lambda = 1.71
@@ -3893,8 +3891,8 @@ Reducing gamma_guess to 7.01754 and restarting.
 Forced termination after 35 iterations.
 Reducing gamma_guess to 4.10383 and restarting.
 Margin Perceptron converged after 14 iterations.
-Final margin after convergence: 2.65213
-Final weight vector: -10.984 -12.3086 -24.5485 -9.14748 31.1257 21.2278 27.2728 -3.10413 
+Final margin after convergence: 2.61948
+Final weight vector: -9.71586 -10.659 -24.8576 -2.49661 28.8957 18.1113 28.2862 -9.04197 
 Test accuracy: 100%
 
 lambda = 1.7
@@ -3903,8 +3901,8 @@ Reducing gamma_guess to 7.05882 and restarting.
 Forced termination after 34 iterations.
 Reducing gamma_guess to 4.15225 and restarting.
 Margin Perceptron converged after 14 iterations.
-Final margin after convergence: 2.63867
-Final weight vector: -7.95305 -16.8141 -22.8594 -10.335 30.4143 20.5375 27.0131 -8.45172 
+Final margin after convergence: 2.61948
+Final weight vector: -9.71586 -10.659 -24.8576 -2.49661 28.8957 18.1113 28.2862 -9.04197 
 Test accuracy: 100%
 
 lambda = 1.69
@@ -3913,8 +3911,8 @@ Reducing gamma_guess to 7.10059 and restarting.
 Forced termination after 34 iterations.
 Reducing gamma_guess to 4.20153 and restarting.
 Margin Perceptron converged after 14 iterations.
-Final margin after convergence: 2.63867
-Final weight vector: -7.95305 -16.8141 -22.8594 -10.335 30.4143 20.5375 27.0131 -8.45172 
+Final margin after convergence: 2.66353
+Final weight vector: -5.4448 -12.7589 -21.898 -3.19234 31.2572 17.6518 29.33 -6.07363 
 Test accuracy: 100%
 
 lambda = 1.68
@@ -3922,9 +3920,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.14286 and restarting.
 Forced termination after 33 iterations.
 Reducing gamma_guess to 4.2517 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 2.552
-Final weight vector: -4.52365 -10.6589 -21.6738 -5.63707 29.8099 22.1607 25.8437 -4.12268 
+Margin Perceptron converged after 16 iterations.
+Final margin after convergence: 2.9433
+Final weight vector: -7.32752 -15.779 -25.4231 -9.8033 34.1447 21.8072 31.3705 -9.32528 
 Test accuracy: 100%
 
 lambda = 1.67
@@ -3932,9 +3930,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.18563 and restarting.
 Forced termination after 33 iterations.
 Reducing gamma_guess to 4.30277 and restarting.
-Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 2.58852
-Final weight vector: -7.67609 -16.1812 -26.9176 -7.25914 29.3357 22.6795 32.2175 -4.53306 
+Margin Perceptron converged after 16 iterations.
+Final margin after convergence: 2.61443
+Final weight vector: -10.0535 -15.9248 -22.6142 -3.64124 36.0999 25.1495 29.466 -5.15254 
 Test accuracy: 100%
 
 lambda = 1.66
@@ -3942,9 +3940,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.22892 and restarting.
 Forced termination after 33 iterations.
 Reducing gamma_guess to 4.35477 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 2.9566
-Final weight vector: -11.582 -11.9558 -22.4557 -6.50219 27.2747 18.3658 28.7031 -7.3298 
+Margin Perceptron converged after 18 iterations.
+Final margin after convergence: 2.84775
+Final weight vector: -10.8611 -17.0624 -27.0684 -6.84696 41.7911 26.0773 33.0291 -12.0417 
 Test accuracy: 100%
 
 lambda = 1.65
@@ -3952,9 +3950,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.27273 and restarting.
 Forced termination after 32 iterations.
 Reducing gamma_guess to 4.40771 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 2.9566
-Final weight vector: -11.582 -11.9558 -22.4557 -6.50219 27.2747 18.3658 28.7031 -7.3298 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 2.90635
+Final weight vector: -10.327 -19.6719 -28.8032 -6.45236 39.9389 27.8803 38.2637 -12.2144 
 Test accuracy: 100%
 
 lambda = 1.64
@@ -3962,9 +3960,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.31707 and restarting.
 Forced termination after 32 iterations.
 Reducing gamma_guess to 4.46163 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 2.9566
-Final weight vector: -11.582 -11.9558 -22.4557 -6.50219 27.2747 18.3658 28.7031 -7.3298 
+Margin Perceptron converged after 18 iterations.
+Final margin after convergence: 2.88148
+Final weight vector: -10.7616 -13.3189 -25.5876 -7.63688 40.0205 27.1656 38.7745 -8.8368 
 Test accuracy: 100%
 
 lambda = 1.63
@@ -3972,9 +3970,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.36196 and restarting.
 Forced termination after 31 iterations.
 Reducing gamma_guess to 4.51654 and restarting.
-Margin Perceptron converged after 17 iterations.
-Final margin after convergence: 2.8762
-Final weight vector: -11.7756 -11.6976 -29.0689 -6.00825 39.5049 26.8679 32.8776 -9.14974 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.06304
+Final weight vector: -12.732 -18.5787 -33.7013 -6.40934 40.1117 27.5097 35.2481 -8.79055 
 Test accuracy: 100%
 
 lambda = 1.62
@@ -3982,9 +3980,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.40741 and restarting.
 Forced termination after 31 iterations.
 Reducing gamma_guess to 4.57247 and restarting.
-Margin Perceptron converged after 18 iterations.
-Final margin after convergence: 3.01426
-Final weight vector: -13.7392 -17.5393 -28.3885 -10.1704 40.452 27.2782 34.3865 -6.67089 
+Margin Perceptron converged after 20 iterations.
+Final margin after convergence: 2.94924
+Final weight vector: -12.4305 -15.5199 -32.5655 -7.18423 40.0484 28.2302 43.5044 -8.88494 
 Test accuracy: 100%
 
 lambda = 1.61
@@ -3992,9 +3990,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.45342 and restarting.
 Forced termination after 31 iterations.
 Reducing gamma_guess to 4.62945 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 2.9788
-Final weight vector: -13.6038 -17.9547 -32.0993 -5.59256 46.8201 30.1409 38.4701 -9.15613 
+Margin Perceptron converged after 21 iterations.
+Final margin after convergence: 3.17712
+Final weight vector: -14.7699 -16.4297 -33.1916 -8.90031 46.1611 31.6269 40.4352 -8.73494 
 Test accuracy: 100%
 
 lambda = 1.6
@@ -4002,9 +4000,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.5 and restarting.
 Forced termination after 30 iterations.
 Reducing gamma_guess to 4.6875 and restarting.
-Margin Perceptron converged after 18 iterations.
-Final margin after convergence: 2.94496
-Final weight vector: -8.45662 -18.4762 -27.8027 -10.2566 39.2443 28.5364 36.9687 -10.8287 
+Margin Perceptron converged after 22 iterations.
+Final margin after convergence: 3.07665
+Final weight vector: -13.3549 -15.2654 -37.2781 -8.63689 47.0134 33.2617 46.5276 -11.1059 
 Test accuracy: 100%
 
 lambda = 1.59
@@ -4012,9 +4010,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.54717 and restarting.
 Forced termination after 30 iterations.
 Reducing gamma_guess to 4.74665 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 3.02027
-Final weight vector: -12.337 -18.4742 -35.1392 -8.62942 42.0583 29.6374 41.9465 -5.69047 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.10847
+Final weight vector: -12.0324 -19.9802 -32.7718 -6.49195 40.9021 29.8028 40.0847 -8.23148 
 Test accuracy: 100%
 
 lambda = 1.58
@@ -4022,9 +4020,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.59494 and restarting.
 Forced termination after 29 iterations.
 Reducing gamma_guess to 4.80692 and restarting.
-Margin Perceptron converged after 24 iterations.
-Final margin after convergence: 3.04366
-Final weight vector: -14.8047 -22.1537 -39.448 -7.61526 57.2153 34.667 46.7397 -10.0597 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.10847
+Final weight vector: -12.0324 -19.9802 -32.7718 -6.49195 40.9021 29.8028 40.0847 -8.23148 
 Test accuracy: 100%
 
 lambda = 1.57
@@ -4032,9 +4030,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.64331 and restarting.
 Forced termination after 29 iterations.
 Reducing gamma_guess to 4.86835 and restarting.
-Margin Perceptron converged after 23 iterations.
-Final margin after convergence: 3.13106
-Final weight vector: -17.1257 -22.6315 -38.1478 -9.98063 53.7666 31.7135 44.0474 -13.5388 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.10847
+Final weight vector: -12.0324 -19.9802 -32.7718 -6.49195 40.9021 29.8028 40.0847 -8.23148 
 Test accuracy: 100%
 
 lambda = 1.56
@@ -4043,8 +4041,8 @@ Reducing gamma_guess to 7.69231 and restarting.
 Forced termination after 29 iterations.
 Reducing gamma_guess to 4.93097 and restarting.
 Margin Perceptron converged after 23 iterations.
-Final margin after convergence: 3.16887
-Final weight vector: -15.2254 -17.5141 -40.5569 -12.6382 51.5682 35.3156 48.0744 -12.5999 
+Final margin after convergence: 3.24768
+Final weight vector: -13.7801 -22.1287 -38.8038 -10.86 49.0692 34.5369 48.5396 -13.0118 
 Test accuracy: 100%
 
 lambda = 1.55
@@ -4052,9 +4050,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.74194 and restarting.
 Forced termination after 28 iterations.
 Reducing gamma_guess to 4.9948 and restarting.
-Margin Perceptron converged after 30 iterations.
-Final margin after convergence: 3.24378
-Final weight vector: -19.3671 -24.1401 -51.1018 -13.2282 69.14 43.1915 59.5073 -15.0806 
+Margin Perceptron converged after 38 iterations.
+Final margin after convergence: 3.23593
+Final weight vector: -22.3257 -32.2975 -61.2662 -12.1133 80.5946 58.9373 77.9427 -16.5031 
 Test accuracy: 100%
 
 lambda = 1.54
@@ -4062,9 +4060,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.79221 and restarting.
 Forced termination after 28 iterations.
 Reducing gamma_guess to 5.05988 and restarting.
-Margin Perceptron converged after 43 iterations.
-Final margin after convergence: 3.33775
-Final weight vector: -26.793 -41.9075 -70.1904 -15.5245 93.44 63.2765 88.0698 -19.226 
+Margin Perceptron converged after 40 iterations.
+Final margin after convergence: 3.35606
+Final weight vector: -26.9588 -33.8763 -65.8985 -19.0192 85.2554 61.2263 80.3817 -19.5408 
 Test accuracy: 100%
 
 lambda = 1.53
@@ -4072,9 +4070,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.84314 and restarting.
 Forced termination after 28 iterations.
 Reducing gamma_guess to 5.12623 and restarting.
-Margin Perceptron converged after 48 iterations.
-Final margin after convergence: 3.39458
-Final weight vector: -32.5494 -40.2351 -78.9439 -18.9355 105.655 66.7088 95.8778 -25.4894 
+Margin Perceptron converged after 46 iterations.
+Final margin after convergence: 3.35091
+Final weight vector: -27.4692 -41.7299 -77.1701 -17.5222 96.9993 68.7191 91.7807 -23.7877 
 Test accuracy: 100%
 
 lambda = 1.52
@@ -4082,9 +4080,9 @@ Forced termination after 12 iterations.
 Reducing gamma_guess to 7.89474 and restarting.
 Forced termination after 27 iterations.
 Reducing gamma_guess to 5.19391 and restarting.
-Margin Perceptron converged after 53 iterations.
-Final margin after convergence: 3.4627
-Final weight vector: -34.7576 -46.5285 -85.8382 -20.0237 115.034 75.3225 107.893 -26.0766 
+Margin Perceptron converged after 63 iterations.
+Final margin after convergence: 3.43493
+Final weight vector: -38.8444 -53.6186 -102.447 -26.3497 136.395 85.8871 126.979 -29.3919 
 Test accuracy: 100%
 
 lambda = 1.51
@@ -4094,9 +4092,9 @@ Forced termination after 27 iterations.
 Reducing gamma_guess to 5.26293 and restarting.
 Forced termination after 62 iterations.
 Reducing gamma_guess to 3.48538 and restarting.
-Margin Perceptron converged after 14 iterations.
-Final margin after convergence: 2.47392
-Final weight vector: -9.2759 -12.4587 -21.8611 -7.19448 33.0635 25.0425 24.735 -5.77536 
+Margin Perceptron converged after 13 iterations.
+Final margin after convergence: 2.8441
+Final weight vector: -10.1557 -12.7828 -17.9775 -7.57663 27.9842 19.7065 25.2617 -7.52108 
 Test accuracy: 100%
 
 lambda = 1.5
@@ -4106,9 +4104,9 @@ Forced termination after 26 iterations.
 Reducing gamma_guess to 5.33333 and restarting.
 Forced termination after 60 iterations.
 Reducing gamma_guess to 3.55556 and restarting.
-Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 2.6971
-Final weight vector: -7.89361 -14.141 -28.1943 -10.7207 31.0712 20.2814 30.6499 -7.39959 
+Margin Perceptron converged after 13 iterations.
+Final margin after convergence: 2.8441
+Final weight vector: -10.1557 -12.7828 -17.9775 -7.57663 27.9842 19.7065 25.2617 -7.52108 
 Test accuracy: 100%
 
 lambda = 1.49
@@ -4119,8 +4117,8 @@ Reducing gamma_guess to 5.40516 and restarting.
 Forced termination after 59 iterations.
 Reducing gamma_guess to 3.62763 and restarting.
 Margin Perceptron converged after 14 iterations.
-Final margin after convergence: 2.63867
-Final weight vector: -7.95305 -16.8141 -22.8594 -10.335 30.4143 20.5375 27.0131 -8.45172 
+Final margin after convergence: 2.61948
+Final weight vector: -9.71586 -10.659 -24.8576 -2.49661 28.8957 18.1113 28.2862 -9.04197 
 Test accuracy: 100%
 
 lambda = 1.48
@@ -4131,8 +4129,8 @@ Reducing gamma_guess to 5.47845 and restarting.
 Forced termination after 57 iterations.
 Reducing gamma_guess to 3.70166 and restarting.
 Margin Perceptron converged after 14 iterations.
-Final margin after convergence: 2.63867
-Final weight vector: -7.95305 -16.8141 -22.8594 -10.335 30.4143 20.5375 27.0131 -8.45172 
+Final margin after convergence: 2.66353
+Final weight vector: -5.4448 -12.7589 -21.898 -3.19234 31.2572 17.6518 29.33 -6.07363 
 Test accuracy: 100%
 
 lambda = 1.47
@@ -4142,9 +4140,9 @@ Forced termination after 25 iterations.
 Reducing gamma_guess to 5.55324 and restarting.
 Forced termination after 56 iterations.
 Reducing gamma_guess to 3.77772 and restarting.
-Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 2.58852
-Final weight vector: -7.67609 -16.1812 -26.9176 -7.25914 29.3357 22.6795 32.2175 -4.53306 
+Margin Perceptron converged after 14 iterations.
+Final margin after convergence: 2.57306
+Final weight vector: -7.28629 -15.0136 -19.7636 -3.56545 32.8328 19.3692 26.1277 -7.95115 
 Test accuracy: 100%
 
 lambda = 1.46
@@ -4154,9 +4152,9 @@ Forced termination after 25 iterations.
 Reducing gamma_guess to 5.62957 and restarting.
 Forced termination after 54 iterations.
 Reducing gamma_guess to 3.85587 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 2.9566
-Final weight vector: -11.582 -11.9558 -22.4557 -6.50219 27.2747 18.3658 28.7031 -7.3298 
+Margin Perceptron converged after 18 iterations.
+Final margin after convergence: 2.9264
+Final weight vector: -15.9586 -17.2747 -27.3436 -9.27892 39.5013 23.7468 35.0442 -9.61731 
 Test accuracy: 100%
 
 lambda = 1.45
@@ -4166,9 +4164,9 @@ Forced termination after 25 iterations.
 Reducing gamma_guess to 5.70749 and restarting.
 Forced termination after 53 iterations.
 Reducing gamma_guess to 3.9362 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 2.9566
-Final weight vector: -11.582 -11.9558 -22.4557 -6.50219 27.2747 18.3658 28.7031 -7.3298 
+Margin Perceptron converged after 18 iterations.
+Final margin after convergence: 2.88148
+Final weight vector: -10.7616 -13.3189 -25.5876 -7.63688 40.0205 27.1656 38.7745 -8.8368 
 Test accuracy: 100%
 
 lambda = 1.44
@@ -4178,9 +4176,9 @@ Forced termination after 24 iterations.
 Reducing gamma_guess to 5.78704 and restarting.
 Forced termination after 51 iterations.
 Reducing gamma_guess to 4.01878 and restarting.
-Margin Perceptron converged after 18 iterations.
-Final margin after convergence: 3.01426
-Final weight vector: -13.7392 -17.5393 -28.3885 -10.1704 40.452 27.2782 34.3865 -6.67089 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.06304
+Final weight vector: -12.732 -18.5787 -33.7013 -6.40934 40.1117 27.5097 35.2481 -8.79055 
 Test accuracy: 100%
 
 lambda = 1.43
@@ -4190,9 +4188,9 @@ Forced termination after 24 iterations.
 Reducing gamma_guess to 5.86826 and restarting.
 Forced termination after 50 iterations.
 Reducing gamma_guess to 4.10368 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 2.9788
-Final weight vector: -13.6038 -17.9547 -32.0993 -5.59256 46.8201 30.1409 38.4701 -9.15613 
+Margin Perceptron converged after 21 iterations.
+Final margin after convergence: 3.17712
+Final weight vector: -14.7699 -16.4297 -33.1916 -8.90031 46.1611 31.6269 40.4352 -8.73494 
 Test accuracy: 100%
 
 lambda = 1.42
@@ -4202,9 +4200,9 @@ Forced termination after 24 iterations.
 Reducing gamma_guess to 5.9512 and restarting.
 Forced termination after 48 iterations.
 Reducing gamma_guess to 4.19099 and restarting.
-Margin Perceptron converged after 21 iterations.
-Final margin after convergence: 2.98272
-Final weight vector: -9.42393 -16.6508 -32.4086 -9.66727 48.193 31.8641 42.8286 -12.0439 
+Margin Perceptron converged after 22 iterations.
+Final margin after convergence: 3.07665
+Final weight vector: -13.3549 -15.2654 -37.2781 -8.63689 47.0134 33.2617 46.5276 -11.1059 
 Test accuracy: 100%
 
 lambda = 1.41
@@ -4214,9 +4212,9 @@ Forced termination after 23 iterations.
 Reducing gamma_guess to 6.03591 and restarting.
 Forced termination after 47 iterations.
 Reducing gamma_guess to 4.28079 and restarting.
-Margin Perceptron converged after 24 iterations.
-Final margin after convergence: 3.04366
-Final weight vector: -14.8047 -22.1537 -39.448 -7.61526 57.2153 34.667 46.7397 -10.0597 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.10847
+Final weight vector: -12.0324 -19.9802 -32.7718 -6.49195 40.9021 29.8028 40.0847 -8.23148 
 Test accuracy: 100%
 
 lambda = 1.4
@@ -4226,9 +4224,9 @@ Forced termination after 23 iterations.
 Reducing gamma_guess to 6.12245 and restarting.
 Forced termination after 46 iterations.
 Reducing gamma_guess to 4.37318 and restarting.
-Margin Perceptron converged after 25 iterations.
-Final margin after convergence: 3.13332
-Final weight vector: -15.2047 -23.9141 -40.1839 -9.99072 55.7867 33.5928 53.7852 -10.6958 
+Margin Perceptron converged after 24 iterations.
+Final margin after convergence: 3.13079
+Final weight vector: -16.3444 -20.7677 -38.9336 -13.9735 53.9009 36.0431 47.6115 -14.6462 
 Test accuracy: 100%
 
 lambda = 1.39
@@ -4238,9 +4236,9 @@ Forced termination after 23 iterations.
 Reducing gamma_guess to 6.21086 and restarting.
 Forced termination after 44 iterations.
 Reducing gamma_guess to 4.46824 and restarting.
-Margin Perceptron converged after 30 iterations.
-Final margin after convergence: 3.24378
-Final weight vector: -19.3671 -24.1401 -51.1018 -13.2282 69.14 43.1915 59.5073 -15.0806 
+Margin Perceptron converged after 37 iterations.
+Final margin after convergence: 3.23609
+Final weight vector: -23.5914 -35.0333 -62.6271 -12.2315 81.9605 52.0102 71.1467 -19.0237 
 Test accuracy: 100%
 
 lambda = 1.38
@@ -4250,9 +4248,9 @@ Forced termination after 22 iterations.
 Reducing gamma_guess to 6.3012 and restarting.
 Forced termination after 43 iterations.
 Reducing gamma_guess to 4.56608 and restarting.
-Margin Perceptron converged after 47 iterations.
-Final margin after convergence: 3.31966
-Final weight vector: -27.4175 -40.2993 -79.4327 -22.6293 103.386 65.6075 94.4645 -23.7872 
+Margin Perceptron converged after 37 iterations.
+Final margin after convergence: 3.3214
+Final weight vector: -22.5505 -32.0194 -59.3304 -17.9499 79.758 55.5314 73.22 -22.4182 
 Test accuracy: 100%
 
 lambda = 1.37
@@ -4262,9 +4260,9 @@ Forced termination after 22 iterations.
 Reducing gamma_guess to 6.39352 and restarting.
 Forced termination after 42 iterations.
 Reducing gamma_guess to 4.6668 and restarting.
-Margin Perceptron converged after 68 iterations.
-Final margin after convergence: 3.41401
-Final weight vector: -41.3102 -58.8435 -109.078 -29.418 143.018 99.6183 133.911 -39.426 
+Margin Perceptron converged after 69 iterations.
+Final margin after convergence: 3.45545
+Final weight vector: -46.7871 -58.8485 -107.66 -28.0829 147.036 100.617 134.858 -36.6717 
 Test accuracy: 100%
 
 lambda = 1.36
@@ -4276,9 +4274,9 @@ Forced termination after 41 iterations.
 Reducing gamma_guess to 4.77051 and restarting.
 Forced termination after 75 iterations.
 Reducing gamma_guess to 3.50773 and restarting.
-Margin Perceptron converged after 15 iterations.
-Final margin after convergence: 2.58852
-Final weight vector: -7.67609 -16.1812 -26.9176 -7.25914 29.3357 22.6795 32.2175 -4.53306 
+Margin Perceptron converged after 16 iterations.
+Final margin after convergence: 2.61443
+Final weight vector: -10.0535 -15.9248 -22.6142 -3.64124 36.0999 25.1495 29.466 -5.15254 
 Test accuracy: 100%
 
 lambda = 1.35
@@ -4290,9 +4288,9 @@ Forced termination after 39 iterations.
 Reducing gamma_guess to 4.87731 and restarting.
 Forced termination after 72 iterations.
 Reducing gamma_guess to 3.61282 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 2.9566
-Final weight vector: -11.582 -11.9558 -22.4557 -6.50219 27.2747 18.3658 28.7031 -7.3298 
+Margin Perceptron converged after 17 iterations.
+Final margin after convergence: 2.78223
+Final weight vector: -9.20309 -18.3272 -25.0848 -6.95457 37.6552 27.7721 32.877 -4.61176 
 Test accuracy: 100%
 
 lambda = 1.34
@@ -4304,9 +4302,9 @@ Forced termination after 38 iterations.
 Reducing gamma_guess to 4.98732 and restarting.
 Forced termination after 69 iterations.
 Reducing gamma_guess to 3.72188 and restarting.
-Margin Perceptron converged after 18 iterations.
-Final margin after convergence: 3.01426
-Final weight vector: -13.7392 -17.5393 -28.3885 -10.1704 40.452 27.2782 34.3865 -6.67089 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.06304
+Final weight vector: -12.732 -18.5787 -33.7013 -6.40934 40.1117 27.5097 35.2481 -8.79055 
 Test accuracy: 100%
 
 lambda = 1.33
@@ -4318,9 +4316,9 @@ Forced termination after 37 iterations.
 Reducing gamma_guess to 5.10066 and restarting.
 Forced termination after 66 iterations.
 Reducing gamma_guess to 3.83508 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 2.9788
-Final weight vector: -13.6038 -17.9547 -32.0993 -5.59256 46.8201 30.1409 38.4701 -9.15613 
+Margin Perceptron converged after 21 iterations.
+Final margin after convergence: 3.17712
+Final weight vector: -14.7699 -16.4297 -33.1916 -8.90031 46.1611 31.6269 40.4352 -8.73494 
 Test accuracy: 100%
 
 lambda = 1.32
@@ -4332,9 +4330,9 @@ Forced termination after 36 iterations.
 Reducing gamma_guess to 5.21746 and restarting.
 Forced termination after 63 iterations.
 Reducing gamma_guess to 3.95262 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 3.02027
-Final weight vector: -12.337 -18.4742 -35.1392 -8.62942 42.0583 29.6374 41.9465 -5.69047 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.10847
+Final weight vector: -12.0324 -19.9802 -32.7718 -6.49195 40.9021 29.8028 40.0847 -8.23148 
 Test accuracy: 100%
 
 lambda = 1.31
@@ -4346,9 +4344,9 @@ Forced termination after 35 iterations.
 Reducing gamma_guess to 5.33786 and restarting.
 Forced termination after 60 iterations.
 Reducing gamma_guess to 4.0747 and restarting.
-Margin Perceptron converged after 29 iterations.
-Final margin after convergence: 3.3961
-Final weight vector: -19.5929 -26.697 -48.0344 -13.2591 62.9423 41.5198 57.3949 -17.0115 
+Margin Perceptron converged after 24 iterations.
+Final margin after convergence: 3.13079
+Final weight vector: -16.3444 -20.7677 -38.9336 -13.9735 53.9009 36.0431 47.6115 -14.6462 
 Test accuracy: 100%
 
 lambda = 1.3
@@ -4360,9 +4358,9 @@ Forced termination after 34 iterations.
 Reducing gamma_guess to 5.46199 and restarting.
 Forced termination after 57 iterations.
 Reducing gamma_guess to 4.20153 and restarting.
-Margin Perceptron converged after 39 iterations.
-Final margin after convergence: 3.28575
-Final weight vector: -23.5064 -33.4702 -60.6391 -16.5354 87.4084 58.8968 75.8643 -22.5905 
+Margin Perceptron converged after 35 iterations.
+Final margin after convergence: 3.30041
+Final weight vector: -21.3565 -30.0631 -55.8166 -18.167 76.9171 48.5079 73.2687 -18.1448 
 Test accuracy: 100%
 
 lambda = 1.29
@@ -4374,9 +4372,9 @@ Forced termination after 33 iterations.
 Reducing gamma_guess to 5.59 and restarting.
 Forced termination after 55 iterations.
 Reducing gamma_guess to 4.33334 and restarting.
-Margin Perceptron converged after 46 iterations.
-Final margin after convergence: 3.37643
-Final weight vector: -29.4667 -41.0973 -75.5241 -22.0049 98.8829 64.8901 93.3368 -25.4366 
+Margin Perceptron converged after 53 iterations.
+Final margin after convergence: 3.36717
+Final weight vector: -30.2064 -47.6781 -82.617 -22.4555 116.232 77.4283 104.822 -23.4895 
 Test accuracy: 100%
 
 lambda = 1.28
@@ -4390,9 +4388,9 @@ Forced termination after 52 iterations.
 Reducing gamma_guess to 4.47035 and restarting.
 Forced termination after 86 iterations.
 Reducing gamma_guess to 3.49246 and restarting.
-Margin Perceptron converged after 13 iterations.
-Final margin after convergence: 2.9566
-Final weight vector: -11.582 -11.9558 -22.4557 -6.50219 27.2747 18.3658 28.7031 -7.3298 
+Margin Perceptron converged after 18 iterations.
+Final margin after convergence: 2.88148
+Final weight vector: -10.7616 -13.3189 -25.5876 -7.63688 40.0205 27.1656 38.7745 -8.8368 
 Test accuracy: 100%
 
 lambda = 1.27
@@ -4406,9 +4404,9 @@ Forced termination after 50 iterations.
 Reducing gamma_guess to 4.61282 and restarting.
 Forced termination after 81 iterations.
 Reducing gamma_guess to 3.63214 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 2.9788
-Final weight vector: -13.6038 -17.9547 -32.0993 -5.59256 46.8201 30.1409 38.4701 -9.15613 
+Margin Perceptron converged after 21 iterations.
+Final margin after convergence: 3.04615
+Final weight vector: -11.4893 -18.1702 -32.3036 -8.52406 43.2309 34.1736 41.4518 -9.98917 
 Test accuracy: 100%
 
 lambda = 1.26
@@ -4422,9 +4420,9 @@ Forced termination after 48 iterations.
 Reducing gamma_guess to 4.76101 and restarting.
 Forced termination after 76 iterations.
 Reducing gamma_guess to 3.77858 and restarting.
-Margin Perceptron converged after 17 iterations.
-Final margin after convergence: 3.00802
-Final weight vector: -11.9191 -17.5091 -32.2954 -8.83597 37.402 24.012 34.376 -9.18278 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.10847
+Final weight vector: -12.0324 -19.9802 -32.7718 -6.49195 40.9021 29.8028 40.0847 -8.23148 
 Test accuracy: 100%
 
 lambda = 1.25
@@ -4438,9 +4436,9 @@ Forced termination after 45 iterations.
 Reducing gamma_guess to 4.9152 and restarting.
 Forced termination after 71 iterations.
 Reducing gamma_guess to 3.93216 and restarting.
-Margin Perceptron converged after 33 iterations.
-Final margin after convergence: 3.19341
-Final weight vector: -26.3262 -28.6955 -54.8648 -13.3017 69.8242 47.4048 65.6858 -19.1938 
+Margin Perceptron converged after 26 iterations.
+Final margin after convergence: 3.20728
+Final weight vector: -13.8562 -24.7119 -42.3407 -11.8837 56.4952 40.9945 51.5222 -13.7907 
 Test accuracy: 100%
 
 lambda = 1.24
@@ -4454,9 +4452,9 @@ Forced termination after 43 iterations.
 Reducing gamma_guess to 5.07568 and restarting.
 Forced termination after 67 iterations.
 Reducing gamma_guess to 4.09329 and restarting.
-Margin Perceptron converged after 39 iterations.
-Final margin after convergence: 3.33555
-Final weight vector: -23.001 -34.1357 -66.3075 -16.4686 83.3313 59.2325 80.9797 -21.6855 
+Margin Perceptron converged after 44 iterations.
+Final margin after convergence: 3.3458
+Final weight vector: -27.897 -39.8698 -68.6493 -15.3441 95.4121 61.0232 89.5928 -22.0836 
 Test accuracy: 100%
 
 lambda = 1.23
@@ -4471,8 +4469,8 @@ Reducing gamma_guess to 5.24277 and restarting.
 Forced termination after 62 iterations.
 Reducing gamma_guess to 4.26241 and restarting.
 Margin Perceptron converged after 71 iterations.
-Final margin after convergence: 3.47963
-Final weight vector: -44.4798 -62.1305 -115.057 -32.3404 151.471 100.506 138.429 -38.5039 
+Final margin after convergence: 3.47686
+Final weight vector: -42.3164 -61.5835 -112.34 -32.0968 152.365 102.829 141.736 -35.9491 
 Test accuracy: 100%
 
 lambda = 1.22
@@ -4488,9 +4486,9 @@ Forced termination after 58 iterations.
 Reducing gamma_guess to 4.43999 and restarting.
 Forced termination after 87 iterations.
 Reducing gamma_guess to 3.63934 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 3.02027
-Final weight vector: -12.337 -18.4742 -35.1392 -8.62942 42.0583 29.6374 41.9465 -5.69047 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.10847
+Final weight vector: -12.0324 -19.9802 -32.7718 -6.49195 40.9021 29.8028 40.0847 -8.23148 
 Test accuracy: 100%
 
 lambda = 1.21
@@ -4507,8 +4505,8 @@ Reducing gamma_guess to 4.62652 and restarting.
 Forced termination after 80 iterations.
 Reducing gamma_guess to 3.82357 and restarting.
 Margin Perceptron converged after 23 iterations.
-Final margin after convergence: 3.16887
-Final weight vector: -15.2254 -17.5141 -40.5569 -12.6382 51.5682 35.3156 48.0744 -12.5999 
+Final margin after convergence: 3.24768
+Final weight vector: -13.7801 -22.1287 -38.8038 -10.86 49.0692 34.5369 48.5396 -13.0118 
 Test accuracy: 100%
 
 lambda = 1.2
@@ -4524,9 +4522,9 @@ Forced termination after 51 iterations.
 Reducing gamma_guess to 4.82253 and restarting.
 Forced termination after 74 iterations.
 Reducing gamma_guess to 4.01878 and restarting.
-Margin Perceptron converged after 53 iterations.
-Final margin after convergence: 3.36801
-Final weight vector: -30.2069 -48.1261 -86.2217 -25.1194 115.316 75.8178 104.003 -24.3883 
+Margin Perceptron converged after 46 iterations.
+Final margin after convergence: 3.35091
+Final weight vector: -27.4692 -41.7299 -77.1701 -17.5222 96.9993 68.7191 91.7807 -23.7877 
 Test accuracy: 100%
 
 lambda = 1.19
@@ -4544,9 +4542,9 @@ Forced termination after 68 iterations.
 Reducing gamma_guess to 4.22571 and restarting.
 Forced termination after 96 iterations.
 Reducing gamma_guess to 3.55102 and restarting.
-Margin Perceptron converged after 20 iterations.
-Final margin after convergence: 3.02027
-Final weight vector: -12.337 -18.4742 -35.1392 -8.62942 42.0583 29.6374 41.9465 -5.69047 
+Margin Perceptron converged after 19 iterations.
+Final margin after convergence: 3.10847
+Final weight vector: -12.0324 -19.9802 -32.7718 -6.49195 40.9021 29.8028 40.0847 -8.23148 
 Test accuracy: 100%
 
 lambda = 1.18
@@ -4564,9 +4562,9 @@ Forced termination after 62 iterations.
 Reducing gamma_guess to 4.44518 and restarting.
 Forced termination after 87 iterations.
 Reducing gamma_guess to 3.7671 and restarting.
-Margin Perceptron converged after 33 iterations.
-Final margin after convergence: 3.29507
-Final weight vector: -23.941 -32.3333 -52.5564 -11.9621 72.6466 46.3382 68.9099 -15.5538 
+Margin Perceptron converged after 27 iterations.
+Final margin after convergence: 3.19823
+Final weight vector: -21.1223 -25.3439 -44.1679 -11.494 58.344 43.539 54.3208 -12.8327 
 Test accuracy: 100%
 
 lambda = 1.17
@@ -4584,9 +4582,9 @@ Forced termination after 57 iterations.
 Reducing gamma_guess to 4.67806 and restarting.
 Forced termination after 78 iterations.
 Reducing gamma_guess to 3.99834 and restarting.
-Margin Perceptron converged after 53 iterations.
-Final margin after convergence: 3.4627
-Final weight vector: -34.7576 -46.5285 -85.8382 -20.0237 115.034 75.3225 107.893 -26.0766 
+Margin Perceptron converged after 63 iterations.
+Final margin after convergence: 3.43493
+Final weight vector: -38.8444 -53.6186 -102.447 -26.3497 136.395 85.8871 126.979 -29.3919 
 Test accuracy: 100%
 
 lambda = 1.16
@@ -4606,9 +4604,9 @@ Forced termination after 71 iterations.
 Reducing gamma_guess to 4.24595 and restarting.
 Forced termination after 95 iterations.
 Reducing gamma_guess to 3.66031 and restarting.
-Margin Perceptron converged after 23 iterations.
-Final margin after convergence: 3.16887
-Final weight vector: -15.2254 -17.5141 -40.5569 -12.6382 51.5682 35.3156 48.0744 -12.5999 
+Margin Perceptron converged after 26 iterations.
+Final margin after convergence: 3.20728
+Final weight vector: -13.8562 -24.7119 -42.3407 -11.8837 56.4952 40.9945 51.5222 -13.7907 
 Test accuracy: 100%
 
 lambda = 1.15
@@ -4628,9 +4626,9 @@ Forced termination after 64 iterations.
 Reducing gamma_guess to 4.51124 and restarting.
 Forced termination after 84 iterations.
 Reducing gamma_guess to 3.92282 and restarting.
-Margin Perceptron converged after 53 iterations.
-Final margin after convergence: 3.41701
-Final weight vector: -34.3241 -48.3097 -82.1704 -24.0625 116.56 78.8554 104.27 -29.4635 
+Margin Perceptron converged after 69 iterations.
+Final margin after convergence: 3.45545
+Final weight vector: -46.7871 -58.8485 -107.66 -28.0829 147.036 100.617 134.858 -36.6717 
 Test accuracy: 100%
 
 lambda = 1.14
@@ -4652,9 +4650,9 @@ Forced termination after 75 iterations.
 Reducing gamma_guess to 4.20671 and restarting.
 Forced termination after 97 iterations.
 Reducing gamma_guess to 3.6901 and restarting.
-Margin Perceptron converged after 38 iterations.
-Final margin after convergence: 3.37748
-Final weight vector: -25.4004 -33.0325 -64.7374 -15.6899 83.4196 54.4795 73.7527 -19.9032 
+Margin Perceptron converged after 39 iterations.
+Final margin after convergence: 3.257
+Final weight vector: -23.8015 -33.1936 -62.8034 -19.5377 83.3164 57.9312 77.8992 -24.8711 
 Test accuracy: 100%
 
 lambda = 1.13
@@ -4678,9 +4676,9 @@ Forced termination after 84 iterations.
 Reducing gamma_guess to 3.99462 and restarting.
 Forced termination after 108 iterations.
 Reducing gamma_guess to 3.53506 and restarting.
-Margin Perceptron converged after 25 iterations.
-Final margin after convergence: 3.13332
-Final weight vector: -15.2047 -23.9141 -40.1839 -9.99072 55.7867 33.5928 53.7852 -10.6958 
+Margin Perceptron converged after 24 iterations.
+Final margin after convergence: 3.13079
+Final weight vector: -16.3444 -20.7677 -38.9336 -13.9735 53.9009 36.0431 47.6115 -14.6462 
 Test accuracy: 100%
 
 lambda = 1.12
@@ -4704,9 +4702,9 @@ Forced termination after 73 iterations.
 Reducing gamma_guess to 4.32732 and restarting.
 Forced termination after 92 iterations.
 Reducing gamma_guess to 3.86368 and restarting.
-Margin Perceptron converged after 87 iterations.
-Final margin after convergence: 3.46127
-Final weight vector: -59.7518 -73.5917 -137.745 -38.6253 185.325 123.737 168.181 -41.0766 
+Margin Perceptron converged after 83 iterations.
+Final margin after convergence: 3.46344
+Final weight vector: -57.144 -73.6268 -132.968 -33.285 175.532 118.081 161.963 -41.2466 
 Test accuracy: 100%
 
 lambda = 1.11
@@ -4732,9 +4730,9 @@ Forced termination after 78 iterations.
 Reducing gamma_guess to 4.22621 and restarting.
 Forced termination after 96 iterations.
 Reducing gamma_guess to 3.8074 and restarting.
-Margin Perceptron converged after 78 iterations.
-Final margin after convergence: 3.47134
-Final weight vector: -47.5706 -69.6925 -122.24 -35.7619 167.799 108.117 153.778 -37.6978 
+Margin Perceptron converged after 68 iterations.
+Final margin after convergence: 3.44857
+Final weight vector: -41.3233 -60.9214 -106.549 -29.8279 145.545 95.2119 137.906 -35.9771 
 Test accuracy: 100%
 
 lambda = 1.1
@@ -4762,9 +4760,9 @@ Forced termination after 80 iterations.
 Reducing gamma_guess to 4.20593 and restarting.
 Forced termination after 97 iterations.
 Reducing gamma_guess to 3.82357 and restarting.
-Margin Perceptron converged after 79 iterations.
-Final margin after convergence: 3.52546
-Final weight vector: -49.7233 -68.8068 -123.679 -31.9138 169.487 112.875 155.962 -38.9529 
+Margin Perceptron converged after 90 iterations.
+Final margin after convergence: 3.47944
+Final weight vector: -59.4874 -73.9939 -144.206 -38.1388 189.605 128.377 177.797 -43.3347 
 Test accuracy: 100%
 
 lambda = 1.09
@@ -4796,9 +4794,9 @@ Forced termination after 94 iterations.
 Reducing gamma_guess to 3.91414 and restarting.
 Forced termination after 112 iterations.
 Reducing gamma_guess to 3.59096 and restarting.
-Margin Perceptron converged after 42 iterations.
-Final margin after convergence: 3.3006
-Final weight vector: -28.912 -38.9363 -65.1072 -21.4622 93.4833 60.3248 85.4408 -24.016 
+Margin Perceptron converged after 43 iterations.
+Final margin after convergence: 3.35339
+Final weight vector: -29.6558 -40.2214 -67.9349 -16.3835 93.8303 59.8579 86.2337 -23.7338 
 Test accuracy: 100%
 
 lambda = 1.08
@@ -4832,9 +4830,9 @@ Forced termination after 88 iterations.
 Reducing gamma_guess to 4.08553 and restarting.
 Forced termination after 103 iterations.
 Reducing gamma_guess to 3.7829 and restarting.
-Margin Perceptron converged after 119 iterations.
-Final margin after convergence: 3.51469
-Final weight vector: -71.4621 -101.705 -189.372 -51.0236 248.363 167.761 231.206 -54.17 
+Margin Perceptron converged after 96 iterations.
+Final margin after convergence: 3.5057
+Final weight vector: -60.9229 -84.5545 -151.835 -41.0208 202.664 139.973 185.043 -47.7196 
 Test accuracy: 100%
 
 lambda = 1.07
@@ -4875,8 +4873,8 @@ Reducing gamma_guess to 3.79889 and restarting.
 Forced termination after 119 iterations.
 Reducing gamma_guess to 3.55037 and restarting.
 Margin Perceptron converged after 40 iterations.
-Final margin after convergence: 3.38105
-Final weight vector: -27.1832 -34.654 -64.4686 -17.0104 89.4575 57.0677 82.4824 -22.5493 
+Final margin after convergence: 3.3509
+Final weight vector: -28.6444 -35.516 -65.9742 -14.5493 86.9436 55.3147 81.0712 -21.0732 
 Test accuracy: 100%
 
 lambda = 1.06
@@ -4922,9 +4920,9 @@ Forced termination after 109 iterations.
 Reducing gamma_guess to 3.74166 and restarting.
 Forced termination after 123 iterations.
 Reducing gamma_guess to 3.52986 and restarting.
-Margin Perceptron converged after 39 iterations.
-Final margin after convergence: 3.38351
-Final weight vector: -26.6559 -36.9813 -66.8581 -19.4846 84.4328 57.1979 78.7693 -18.8182 
+Margin Perceptron converged after 40 iterations.
+Final margin after convergence: 3.34768
+Final weight vector: -25.8153 -31.8503 -67.1581 -17.8645 86.877 58.4495 79.8823 -20.4041 
 Test accuracy: 100%
 
 lambda = 1.05
@@ -4979,8 +4977,8 @@ Reducing gamma_guess to 3.72081 and restarting.
 Forced termination after 124 iterations.
 Reducing gamma_guess to 3.54363 and restarting.
 Margin Perceptron converged after 49 iterations.
-Final margin after convergence: 3.37629
-Final weight vector: -34.5558 -45.6686 -80.8968 -21.413 107.741 66.776 95.9855 -26.357 
+Final margin after convergence: 3.48323
+Final weight vector: -31.3607 -43.0707 -77.2142 -22.7393 107.1 70.6123 97.8986 -23.9622 
 Test accuracy: 100%
 
 lambda = 1.04
@@ -5046,9 +5044,9 @@ Forced termination after 116 iterations.
 Reducing gamma_guess to 3.69982 and restarting.
 Forced termination after 126 iterations.
 Reducing gamma_guess to 3.55752 and restarting.
-Margin Perceptron converged after 74 iterations.
-Final margin after convergence: 3.43073
-Final weight vector: -44.4487 -65.4996 -120.752 -32.2353 154.83 107.416 143.366 -39.9973 
+Margin Perceptron converged after 66 iterations.
+Final margin after convergence: 3.42666
+Final weight vector: -42.1735 -58.7815 -106.889 -29.3119 144.672 92.5979 128.241 -30.9997 
 Test accuracy: 100%
 
 lambda = 1.03
@@ -5134,9 +5132,9 @@ Forced termination after 120 iterations.
 Reducing gamma_guess to 3.67868 and restarting.
 Forced termination after 127 iterations.
 Reducing gamma_guess to 3.57154 and restarting.
-Margin Perceptron converged after 96 iterations.
-Final margin after convergence: 3.4947
-Final weight vector: -59.6882 -83.6958 -152.883 -38.8155 205.635 133.584 183.962 -44.8432 
+Margin Perceptron converged after 71 iterations.
+Final margin after convergence: 3.47686
+Final weight vector: -42.3164 -61.5835 -112.34 -32.0968 152.365 102.829 141.736 -35.9491 
 Test accuracy: 100%
 
 lambda = 1.02
@@ -5262,8 +5260,8 @@ Forced termination after 124 iterations.
 Reducing gamma_guess to 3.65739 and restarting.
 Forced termination after 129 iterations.
 Reducing gamma_guess to 3.58567 and restarting.
-Margin Perceptron converged after 123 iterations.
-Final margin after convergence: 3.52501
-Final weight vector: -77.6462 -107.474 -192.455 -52.4764 257.851 175.897 236.115 -63.5913 
+Margin Perceptron converged after 104 iterations.
+Final margin after convergence: 3.52856
+Final weight vector: -67.5819 -92.6131 -165.731 -42.7085 220.772 144.274 201.796 -51.7492 
 Test accuracy: 100%
 
