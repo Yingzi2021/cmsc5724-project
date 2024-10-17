@@ -46,7 +46,7 @@ int main() {
         splitData(data, trainData, testData, 0.8);
         
         vector<double> w(dimension, 0.0);
-        double lambda = 2.0; //influence approximation precision(gamma_guess >= gamma_opt / lambda^2)
+        double lambda = 2.0; //3.3 influence approximation precision(gamma_guess >= gamma_opt / lambda^2)
         //try different lambda
         while(lambda >= 1.01){
             double gamma_guess = R;
