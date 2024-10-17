@@ -85,7 +85,7 @@ int main() {
             cout << "Test accuracy: " << accuracy * 100 << "%" << endl << endl;
 
             //update lambda
-            lambda -= 0.01;//0.01
+            lambda -= 1;//0.01
         }
     }
 
