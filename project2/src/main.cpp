@@ -18,19 +18,10 @@ void loadData(const string& filePath, vector<Point>& data, int& dimension, int& 
 void splitData(const vector<Point>& data, vector<Point>& trainData, vector<Point>& testData, double trainRatio);//shuffle and split the dataset into training and test sets
 double dotProduct(const vector<double>& w, const vector<double>& x);
 double calculateNorm(const vector<double>& w); // margin = min (w * p)/|w|
+double calculateRadius(const vector<Point>& data);
 double calculateFinalMargin(const vector<Point>& data, const vector<double>& w);
 bool marginPerceptron(vector<Point>& data, vector<double>& w, double gamma_guess, double Lambda, double R);//modify, add Lambda
 double test(const vector<Point>& testData, const vector<double>& w);
-double calculateRadius(const vector<Point>& data) {
-    double max_radius = 0.0;
-    
-    for (const auto& p : data) {
-        double norm = calculateNorm(p.features);
-        max_radius = max(max_radius, norm);
-    }
-
-    return max_radius;
-}
 
 int main() {
     // Variables to store dataset information
@@ -44,12 +35,15 @@ int main() {
         vector<Point> data, trainData, testData;
         loadData(filePath, data, dimension, numSamples, R);
         splitData(data, trainData, testData, 0.8);
+
+        // Recalculate R for the training data
+        R = calculateRadius(trainData);
         
         vector<double> w(dimension, 0.0);
         double lambda = 2.0; //3.3 influence approximation precision(gamma_guess >= gamma_opt / lambda^2)
         //try different lambda
-        while(lambda >= 1.01){
-            double gamma_guess = R;
+        while(lambda > 1.01){ //lambda > c+1/c, set c = 100
+            double gamma_guess = R; //need change! calculate new R, because we split it to train and test
             cout << "lambda = " << lambda << endl;
             // Iteratively adjust gamma_guess
             while (true) {
@@ -157,6 +151,17 @@ double calculateNorm(const vector<double>& w) {
     return sqrt(sum);
 }
 
+double calculateRadius(const vector<Point>& data) {
+    double max_radius = 0.0;
+    
+    for (const auto& p : data) {
+        double norm = calculateNorm(p.features);
+        max_radius = max(max_radius, norm);
+    }
+
+    return max_radius;
+}
+
 //calculate the margin for a set of points and the final weight vector w
 double calculateFinalMargin(const vector<Point>& data, const vector<double>& w) {
     double norm_w = calculateNorm(w);
@@ -175,7 +180,8 @@ double calculateFinalMargin(const vector<Point>& data, const vector<double>& w) 
 // Margin Perceptron Algorithm
 bool marginPerceptron(vector<Point>& data, vector<double>& w, double gamma_guess, double Lambda, double R) {
     int iteration = 0;
-    int max_iterations = static_cast<int>((12 * R * R) / (gamma_guess * gamma_guess));
+    double coefficient = (50 * Lambda * Lambda + Lambda) / (Lambda - 1);// c=100
+    int max_iterations = static_cast<int>(coefficient * (R * R) / (gamma_guess * gamma_guess));
     const double epsilon = 1e-8;
     bool violations_found;
     bool forced_termination = false;
