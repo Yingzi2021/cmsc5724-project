@@ -40,7 +40,7 @@ int main() {
         R = calculateRadius(trainData);
         
         vector<double> w(dimension, 0.0);
-        double lambda = 2.0; //3.3 influence approximation precision(gamma_guess >= gamma_opt / lambda^2)
+        double lambda = 3.3; //3.3 influence approximation precision(gamma_guess >= gamma_opt / lambda^2)
         //try different lambda
         while(lambda > 1.01){ //lambda > c+1/c, set c = 100
             double gamma_guess = R; //need change! calculate new R, because we split it to train and test
@@ -79,7 +79,7 @@ int main() {
             cout << "Test accuracy: " << accuracy * 100 << "%" << endl << endl;
 
             //update lambda
-            lambda -= 1;//0.01
+            lambda -= 0.01;//0.01
         }
     }
 
