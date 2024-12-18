@@ -8,7 +8,7 @@
 #include<limits>
 
 using namespace std;
-vector<map<string, int>>mappings;
+
 enum attr_names{
     age=0, // continueous
     workclass,
@@ -40,9 +40,52 @@ vector<vector<string>>values = {
         {},
         {},
         {"<=50K",">50K"}
-    };
+};
 
+vector<map<string, int>>mappings; // map string to int
 vector<vector<int>>max_min(label + 1, vector<int>{INT32_MIN, INT32_MAX, 0});// max, min, interval
+
+// Function declarations
+void init_mappings();
+void group_continueous_attrs(vector<vector<int>>&dataset);
+vector<vector<int>> parse_data(string filepath);
+void calc_class_probability(vector<vector<int>>&dataset, vector<double>&class_probability);
+vector<vector<vector<double>>> calc_conditional_probability(vector<vector<int>>&dataset);
+vector<int>predict(vector<vector<int>>&testset, vector<vector<vector<double>>>&cond_probability, vector<double>&class_probability);
+double evaluate(vector<vector<int>>&testset, vector<int>&predicted);
+void generate_report(string test_path, string output_path, vector<int>&predict_label);
+
+int main(){
+    init_mappings();
+    
+    //parse data from file
+    string train_path = "train.data";
+    string test_path = "test.data";
+    vector<vector<int>>dataset = parse_data(train_path);
+    vector<vector<int>>testset = parse_data(test_path);
+    
+    //1.Training
+    //calculte probability for each label (in this case we only have two labels)
+    vector<double>class_probability(2, 0.0);
+    calc_class_probability(dataset, class_probability);
+
+    //calculate conditional probability, i.e. p(x[i] = a | y) & p(x[i] = a | n) for every attribute. 
+    //Note that after grouping discrete & continueous attrs become the same
+    vector<vector<vector<double>>>cond_probability = calc_conditional_probability(dataset);
+    
+    //2.Prediction
+    vector<int>predict_res = predict(testset,cond_probability,class_probability);
+
+    //3.Evaluation
+    double error = evaluate(testset, predict_res);
+    cout << "The prediction error rate is " << error << endl;
+
+    //4.Generate report
+    string report_path = "report.txt";
+    generate_report(test_path,report_path,predict_res);
+
+    return 0;
+}
 
 void init_mappings(){
     for(vector<string>attr : values){
@@ -228,36 +271,4 @@ void generate_report(string test_path, string output_path, vector<int>&predict_l
         output << line;
     }
     cout << "report file " << output_path << "successfully generated." << endl;
-}
-
-int main(){
-    init_mappings();
-    
-    //parse data from file
-    string train_path = "train.data";
-    string test_path = "test.data";
-    vector<vector<int>>dataset = parse_data(train_path);
-    vector<vector<int>>testset = parse_data(test_path);
-    
-    //1.Training
-    //calculte probability for each label (in this case we only have two labels)
-    vector<double>class_probability(2, 0.0);
-    calc_class_probability(dataset, class_probability);
-
-    //calculate conditional probability, i.e. p(x[i] = a | y) & p(x[i] = a | n) for every attribute. 
-    //Note that after grouping discrete & continueous attrs become the same
-    vector<vector<vector<double>>>cond_probability = calc_conditional_probability(dataset);
-    
-    //2.Prediction
-    vector<int>predict_res = predict(testset,cond_probability,class_probability);
-
-    //3.Evaluation
-    double error = evaluate(testset, predict_res);
-    cout << "The prediction error rate is " << error << endl;
-
-    //4.Generate report
-    string report_path = "report.txt";
-    generate_report(test_path,report_path,predict_res);
-
-    return 0;
 }
