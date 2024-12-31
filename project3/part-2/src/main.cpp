@@ -224,7 +224,6 @@ struct point calc_geometric_center(int i, const vector<point>& dataset){
 
 //k-means
 void k_means(vector<point>&dataset, centriods& C, int centroid_num){
-    int threshold = 0;
     //init
     C.init(dataset, centroid_num); //choose k centrorids arbitrarily
     centriods old_set;
@@ -232,11 +231,6 @@ void k_means(vector<point>&dataset, centriods& C, int centroid_num){
         old_set.centriod_set.clear();
         old_set.num = 0;
 
-        threshold++;
-        if(threshold > INT_MAX){
-            cerr << "Error: might be infinite loop" << endl;
-            exit(1);
-        }
         //assign C to C_old
         for(struct point p : C.centriod_set){
             old_set.add(p);
