@@ -270,5 +270,5 @@ void generate_report(string test_path, string output_path, vector<int>&predict_l
         }
         output << line;
     }
-    cout << "report file " << output_path << "successfully generated." << endl;
+    cout << "report file " << output_path << " successfully generated." << endl;
 }
