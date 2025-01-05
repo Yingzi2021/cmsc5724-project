@@ -34,8 +34,18 @@ Implement the k-means algorithm using the k-center algorithm for center initiali
 
 
 
-## Project 4: DBSCAN
+## Project 4: DBSCAN(√)
 
 ### Goal
 
 Implement the DBSCAN algorithm.
+
+## Project 5: PCA for Image Compression
+
+### Goal
+
+Reproduce the experimental results on [this page](https://www.projectrhea.org/rhea/index.php/PCA_Theory_Examples).
+
+### Dataset
+
+The original image can be downloaded here [here](https://www.projectrhea.org/rhea/index.php/File:Ex_2_original.png).
