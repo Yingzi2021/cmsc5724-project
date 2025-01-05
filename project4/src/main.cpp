@@ -170,5 +170,6 @@ int generate_report(const vector<point>&dataset, const string& path){
     for(point p : dataset){
         output << p.x << " " << p.y << " " << p.cluster << endl;
     }
+    cout << "report file " << path << " successfully generated." << endl;
     return 1;
 }
