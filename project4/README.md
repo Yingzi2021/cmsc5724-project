@@ -1,5 +1,15 @@
 # Usage
 
+> Tasks: 
+>
+> 1. implement DBSCAN with naive indexing method (√)
+> 2. implement DBSCAN with `R*-tree` indexing method try [libspatialindex/libspatialindex: C++ implementation of R*-tree, an MVR-tree and a TPR-tree with C API](https://github.com/libspatialindex/libspatialindex) (x)
+> 3. implement DBSCAN with genuine O(nlogn) (x)
+> 4. implement ρ-approximation DBSCAN (x)
+> 5. Find different dataset to test the above 4 approach. (x)
+
+**Most Interested**: How to measure the **hardness** of a **problem** ?
+
 To run the code, use:
 
 ```
