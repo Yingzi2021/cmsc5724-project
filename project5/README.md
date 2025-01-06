@@ -28,7 +28,9 @@ make clean
 ### Output:
 
 ```
-report file report.txt successfully generated.
+input target dimension k:
+250
+Image successfully saved to processed.png
 ```
 
 ### Deliverables

@@ -34,8 +34,6 @@ int main(){
         exit(1);    
     }
 
-    save_to_png("out.png", dataset);
-
     cout << "input target dimension k:"<< endl;    
     cin >> k;
 
