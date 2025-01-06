@@ -40,12 +40,15 @@ Implement the k-means algorithm using the k-center algorithm for center initiali
 
 Implement the DBSCAN algorithm.
 
-## Project 5: PCA for Image Compression
+## Project 5: PCA for Image Compression(√)
 
 ### Goal
 
 Reproduce the experimental results on [this page](https://www.projectrhea.org/rhea/index.php/PCA_Theory_Examples).
 
-### Dataset
+## Project 6: Association Rule Mining
 
-The original image can be downloaded here [here](https://www.projectrhea.org/rhea/index.php/File:Ex_2_original.png).
+### Goal
+
+Implement the apriori algorithm for association rule mining.
+
