@@ -1,7 +1,7 @@
 # Compiler and flags
 CXX = g++
-CXXFLAGS = -std=c++11 -Wall
-
+CXXFLAGS = -std=c++11 -Wall 
+IFLAGS = -I/usr/include/libpng16 -lpng16 -lz
 # Target executable
 TARGET = pca
 
@@ -10,7 +10,7 @@ SRC = main.cpp
 
 # Build the target executable
 $(TARGET): $(SRC)
-	@$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC)
+	@$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC) $(IFLAGS)
 
 # Run the program
 run: $(TARGET)

@@ -9,7 +9,10 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-I/usr/include/libpng16",
+                "-lpng16",
+                "-lz"
             ],
             "options": {
                 "cwd": "${fileDirname}"
