@@ -42,3 +42,5 @@ report file report.txt successfully generated.
 - A file `report.txt` on using the program to classify the records of the evaluation set.
 
 ### Results
+
+![](src/cluser.png)
