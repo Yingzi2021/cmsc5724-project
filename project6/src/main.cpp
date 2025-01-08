@@ -359,6 +359,7 @@ int generate_report(const vector<asso_rule>& rules, string path){
     
     if(rules.empty()){
         output << "no rules generated" << endl;
+        cout << "report file " << path << " successfully generated." << endl;
         return 0;
     }
 
