@@ -45,5 +45,3 @@ Image successfully saved to processed.png
 with k = 250:
 
 ![](src/processed.png)
-
-奇怪......为什么会差这么多呢？

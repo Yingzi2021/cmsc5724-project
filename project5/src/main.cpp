@@ -9,7 +9,7 @@ using namespace std;
 
 //for eigenvalues and eigenvector calculation
 const double EPS = 1e-12; // Convergence threshold
-const int MAX_ITER = 500; // Maximum number of iterations
+const int MAX_ITER = 1000; // Maximum number of iterations
 
 int load_data(const string& path, vector<vector<double>>& dataset); //load the original png from `path`
 int save_to_png(const string& path, const vector<vector<double>>& dataset); //save the grayscale figure to png format
@@ -36,19 +36,6 @@ int main(){
 
     cout << "input target dimension k:"<< endl;    
     cin >> k;
-
-/*
-            x
-0   x               x
-            x
-
-*/
-    // vector<vector<double>>tmp = {
-    //     {1,0},
-    //     {5,0},
-    //     {3,1},
-    //     {3,-1}
-    // };
 
     subspace = PCA(k, dataset);
 
@@ -238,7 +225,7 @@ int move_to_center(vector<vector<double>>& dataset){
         cerr << "Error: invalid dataset size with " << dim << "dim and " << n << "size." << endl;
         return 1;
     }
-    vector<int>geo_center(dim, 0);
+    vector<double>geo_center(dim, 0.0);
     //calculate geometric center
     for(int i = 0; i < dim; i++){
         for(int j = 0; j < n; j++){
@@ -268,6 +255,13 @@ vector<vector<double>> calc_covariance_matrix(const vector<vector<double>>& data
             for(int k = 0; k < n; k++){
                 res[i][j] += (dataset[k][i]*dataset[k][j]);
             }
+            // Calculate covariance for res[i][j] and res[j][i]
+            // double cov = 0.0;
+            // for(int k = 0; k < n; k++){
+            //     cov += dataset[k][i] * dataset[k][j];
+            // }
+            // res[i][j] = cov / (n - 1);
+            // res[j][i] = res[i][j];
         }
     }
     return res;
