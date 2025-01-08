@@ -106,14 +106,6 @@ int main(){
     }
     sort(dataset.begin(), dataset.end());
     
-    //1:3次, 2:6, 3:1, 4:4, 5:2, 6:6, 7:3, 8:1, 9:5
-    // vector<itemset> F1 = find_F1(dataset, minSupp);
-    // vector<vector<int>> C = find_candidate_set(F1);
-    // vector<itemset> Fi = find_Fi(dataset, C, minSupp);
-    //map<vector<int>, int> freq_itemset = apiori(dataset, minSupp);
-    // rule generation
-    //vector<asso_rule> rules = generate_asso_rule(freq_itemset, minConf);// R: I1->I1/I, supp(I), conf = supp(I1) / supp(I1)
-    
     //perform associaction rule mining
     vector<asso_rule> found = asso_rule_mining(dataset, minSupp, minConf);
 
