@@ -46,7 +46,7 @@ Implement the DBSCAN algorithm.
 
 Reproduce the experimental results on [this page](https://www.projectrhea.org/rhea/index.php/PCA_Theory_Examples).
 
-## Project 6: Association Rule Mining
+## Project 6: Association Rule Mining(√)
 
 ### Goal
 
